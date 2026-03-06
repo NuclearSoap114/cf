@@ -1,0 +1,1 @@
+#include <bits/stdc++.h>using namespace std;#define int long longint n,k; void O_o(){    cin >> n >> k;    cout << n - (n / k) << '\n';} signed main(){    ios::sync_with_stdio(false);    cin.tie(nullptr);cout.tie(nullptr);    int T;cin >> T;    while(T--)O_o();    return 0;}
