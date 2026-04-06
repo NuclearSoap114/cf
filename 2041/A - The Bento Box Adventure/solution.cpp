@@ -1,0 +1,1 @@
+#include <bits/stdc++.h>using namespace std;#define int long long signed main(){    ios::sync_with_stdio(false);    cin.tie(nullptr);cout.tie(nullptr);    int ans = 1 + 2 + 3 + 4 + 5;    for(int i=1;i<=4;i++){        int tmp;cin >> tmp;        ans -= tmp;    }    cout << ans << '\n';    return 0;}
