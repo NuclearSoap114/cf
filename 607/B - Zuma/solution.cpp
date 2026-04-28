@@ -1,56 +1,42 @@
 #include <bits/stdc++.h>
 using namespace std;
- 
 #define int long long
- 
-const int N = 505;
-const int INF = 1e18;
- 
-int n;
-int dp[N][N];
+inline void fmx(int &a,int b){ if(a<b) a=b;}
+#define rep(i,a,b) for(int i=a;i<=b;i++)
+#define _rep(i,a,b) for(int i=b;i>=a;i--)
+#define all() a.begin() + 1,a.begin() + n + 1
+const int inf = 1e18,N = 505;
+int ans = inf,n,dp[N][N];
+string s;
  
 signed main(){
     ios::sync_with_stdio(false);
-    cin.tie(nullptr);
- 
-    cin >> n;
- 
+    cin.tie(nullptr);cout.tie(nullptr);
+    int n;cin >> n;
     vector<int> s(n + 1);
- 
-    for(int i = 1; i <= n; i++){
+    for(int i=1;i<=n;i++){
         cin >> s[i];
     }
- 
-    for(int i = 0; i < N; i++){
-        for(int j = 0; j < N; j++){
-            dp[i][j] = INF;
-        }
-    }
- 
-    for(int i = 1; i <= n; i++){
+    memset(dp,0x3f3f,sizeof(dp));
+    for(int i=1;i<=n;i++){
         dp[i][i] = 1;
     }
- 
-    for(int len = 2; len <= n; len++){
-        for(int l = 1; l + len - 1 <= n; l++){
-            int r = l + len - 1;
- 
+    for(int len=1;len<=n;len++){
+        for(int l=1;l+len<=n;l++){
+            int r = l + len;
             if(s[l] == s[r]){
-                if(len == 2){
+                if(l + 1 == r){
                     dp[l][r] = 1;
                 }else{
-                    dp[l][r] = dp[l + 1][r - 1];
+                    dp[l][r] = min(dp[l][r],dp[l + 1][r - 1]);
                 }
             }
- 
-            for(int k = l; k < r; k++){
-                dp[l][r] = min(dp[l][r], dp[l][k] + dp[k + 1][r]);
+            for(int k=l;k<=r;k++){
+                dp[l][r] = min(dp[l][r],dp[l][k] + dp[k + 1][r]);
             }
         }
     }
- 
     cout << dp[1][n] << '
 ';
- 
     return 0;
 }
