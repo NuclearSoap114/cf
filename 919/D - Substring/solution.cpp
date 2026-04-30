@@ -36,7 +36,7 @@ signed main(){
                 }
             }
             indeg[v]--;
-            if(indeg[v] == 0){
+            if(indeg[v] <= 0){
                 q.push(v);
             }
         }
