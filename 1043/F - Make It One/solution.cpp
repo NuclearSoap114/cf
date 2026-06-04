@@ -1,31 +1,52 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define int long long
-const int N = 3e5 + 10,MOD = 998244353;
-int cnt[N],n,a[N],mx = -1,dp[10][N],ans = -1,inv[N];
+const int N = 3e5 + 10,inf = 1e18;
+int n,a[N],cnt[N],roz[N],mx = -1;
  
-int c(int b,int s){
-    if(b < s)return 0;
+int base(int x){
     int res = 1;
-    for(int i=b;i>=b - s + 1;i--){
-        res = res * i % MOD;
+    while(x > 1){
+        int p = roz[x];
+        while(x % p == 0)x /= p;
+        res *= p;
     }
-    auto f = [&](int x) -> int {
-        int k = 1;
-        for(int i=2;i<=x;i++)k *= i;
-        return k;
-    };
-    res = ((res % MOD) * (inv[f(s)] % MOD)) % MOD;
+    return res;
+}
+ 
+vector<int> get(int x){
+    vector<int> v,res,vv;
+    int p = x;
+    while(p > 1){
+        v.push_back(roz[p]);
+        p /= roz[p];
+    }
+    int sz = v.size();
+    int t = 1 << sz;
+    for(int i=0;i<t;i++){
+        int tmp = 1;
+        for(int j=0;j<sz;j++){
+            if((i >> j) & 1){
+                tmp *= v[j];
+            }
+        }
+        vv.push_back(tmp);
+    }
+    for(int i=0;i<t;i++){
+        int ok = 0;
+        for(int j=i;j<(1 << sz);j = (j + 1) | i){
+            int tmp = cnt[vv[j]];
+            if(__builtin_popcount(i ^ j) & 1)ok -= tmp;
+            else ok += tmp;
+        }
+        if(ok)res.push_back(vv[i]);
+    }
     return res;
 }
  
 signed main(){
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    inv[1] = 1;
-    for(int i=2;i<=7*6*5*4*3*2;i++){
-        inv[i] = (MOD - MOD / i) * inv[MOD % i] % MOD;
-    }
     cin >> n;
     for(int i=1;i<=n;i++){
         int x;cin >> x;
@@ -37,16 +58,36 @@ signed main(){
             cnt[i] += a[j];
         }
     }
-    for(int i=1;i<=7;i++){
-        for(int j=mx;j>=1;j--){
-            dp[i][j] = c(cnt[j],i);
-            for(int k=2;k * j <= mx;k++){
-                dp[i][j] = (dp[i][j] - dp[i][k * j] % MOD + MOD) % MOD;
-            }
-            if(j == 1 && dp[i][j] > 0){
-                cout << i << '
+    for(int i=2;i<=N;i++){
+        if(!roz[i])roz[i] = i;
+        for(int j=i * 2;j<=N;j += i){
+            if(!roz[j])roz[j] = i;
+        }
+    }
+    queue<int> q;
+    vector<int> dist(N,inf);
+    vector<bool> vis(N,0);
+    for(int i=1;i<=mx;i++){
+        if(a[i]){
+            int x = base(i);
+            q.push(x);
+            dist[x] = 1;
+        }
+    }
+    while(!q.empty()){
+        int u = q.front();
+        q.pop();
+        if(vis[u])continue;
+        vis[u] = 1;
+        if(u == 1){
+            cout << dist[u] << '
 ';
-                return 0;
+            return 0;
+        }
+        for(int v : get(u)){
+            if(dist[v] > dist[u] + 1){
+                dist[v] = dist[u] + 1;
+                q.push(v);
             }
         }
     }
