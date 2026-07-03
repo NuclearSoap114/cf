@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 2 | 5 |
+| 3 | 6 |
 
 ---
 
@@ -14,6 +14,7 @@
 
 - [dp](#dp) (1)
 - [greedy](#greedy) (1)
+- [implementation](#implementation) (1)
 - [math](#math) (2)
 - [number theory](#number-theory) (1)
 - [sortings](#sortings) (1)
@@ -31,6 +32,12 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2238A | [Another Puzzle from Papyrus](https://codeforces.com/contest/2238/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2238/A%20-%20Another%20Puzzle%20from%20Papyrus/solution.cpp) |
+
+### implementation
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1950A | [Stair, Peak, or Neither?](https://codeforces.com/contest/1950/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/A%20-%20Stair%2C%20Peak%2C%20or%20Neither%3F/solution.cpp) |
 
 ### math
 
