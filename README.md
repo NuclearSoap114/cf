@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 17 | 15 |
+| 18 | 16 |
 
 ---
 
@@ -18,11 +18,12 @@
 - [constructive algorithms](#constructive-algorithms) (2)
 - [data structures](#data-structures) (2)
 - [dp](#dp) (4)
-- [games](#games) (1)
-- [greedy](#greedy) (4)
+- [games](#games) (2)
+- [greedy](#greedy) (5)
 - [implementation](#implementation) (10)
 - [math](#math) (5)
 - [number theory](#number-theory) (4)
+- [schedules](#schedules) (1)
 - [sortings](#sortings) (3)
 - [strings](#strings) (3)
 - [trees](#trees) (1)
@@ -79,6 +80,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2228B | [Remilia Plays Soku](https://codeforces.com/contest/2228/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2228/B%20-%20Remilia%20Plays%20Soku/solution.cpp) |
+| 2237A | [Destroying Towers](https://codeforces.com/contest/2237/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2237/A%20-%20Destroying%20Towers/solution.cpp) |
 
 ### greedy
 
@@ -86,6 +88,7 @@
 |---|---------|------------|----------|
 | 1950F | [0, 1, 2, Tree!](https://codeforces.com/contest/1950/problem/F) | 1700 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/F%20-%200%2C%201%2C%202%2C%20Tree!/solution.cpp) |
 | 2228A | [Marisa Steals Reimu's Takeout](https://codeforces.com/contest/2228/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2228/A%20-%20Marisa%20Steals%20Reimu's%20Takeout/solution.cpp) |
+| 2237A | [Destroying Towers](https://codeforces.com/contest/2237/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2237/A%20-%20Destroying%20Towers/solution.cpp) |
 | 2238A | [Another Puzzle from Papyrus](https://codeforces.com/contest/2238/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2238/A%20-%20Another%20Puzzle%20from%20Papyrus/solution.cpp) |
 | 2242B | [Predominant Frequency Division](https://codeforces.com/contest/2242/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2242/B%20-%20Predominant%20Frequency%20Division/solution.cpp) |
 
@@ -122,6 +125,12 @@
 | 1950E | [Nearly Shortest Repeating Substring](https://codeforces.com/contest/1950/problem/E) | 1500 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/E%20-%20Nearly%20Shortest%20Repeating%20Substring/solution.cpp) |
 | 2238B | [Crimson Triples](https://codeforces.com/contest/2238/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2238/B%20-%20Crimson%20Triples/solution.cpp) |
 | 2246B | [ezraft and Array](https://codeforces.com/contest/2246/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2246/B%20-%20ezraft%20and%20Array/solution.cpp) |
+
+### schedules
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2237A | [Destroying Towers](https://codeforces.com/contest/2237/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2237/A%20-%20Destroying%20Towers/solution.cpp) |
 
 ### sortings
 
