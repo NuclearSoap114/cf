@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 21 | 17 |
+| 22 | 18 |
 
 ---
 
@@ -15,15 +15,16 @@
 - [binary search](#binary-search) (1)
 - [bitmasks](#bitmasks) (1)
 - [brute force](#brute-force) (5)
-- [combinatorics](#combinatorics) (1)
+- [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (3)
 - [data structures](#data-structures) (2)
 - [dp](#dp) (4)
 - [games](#games) (2)
 - [greedy](#greedy) (8)
 - [implementation](#implementation) (10)
-- [math](#math) (6)
-- [number theory](#number-theory) (4)
+- [math](#math) (7)
+- [number theory](#number-theory) (5)
+- [probabilities](#probabilities) (1)
 - [schedules](#schedules) (1)
 - [sortings](#sortings) (3)
 - [strings](#strings) (3)
@@ -58,6 +59,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 621C | [Wet Shark and Flowers](https://codeforces.com/contest/621/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/621/C%20-%20Wet%20Shark%20and%20Flowers/solution.cpp) |
 | 2246C | [0mar and Alternating Sums](https://codeforces.com/contest/2246/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2246/C%20-%200mar%20and%20Alternating%20Sums/solution.cpp) |
 
 ### constructive algorithms
@@ -123,6 +125,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 621C | [Wet Shark and Flowers](https://codeforces.com/contest/621/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/621/C%20-%20Wet%20Shark%20and%20Flowers/solution.cpp) |
 | 1950C | [Clock Conversion](https://codeforces.com/contest/1950/problem/C) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/C%20-%20Clock%20Conversion/solution.cpp) |
 | 2237D | [Fullmetal Bitchemist](https://codeforces.com/contest/2237/problem/D) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2237/D%20-%20Fullmetal%20Bitchemist/solution.cpp) |
 | 2238A | [Another Puzzle from Papyrus](https://codeforces.com/contest/2238/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2238/A%20-%20Another%20Puzzle%20from%20Papyrus/solution.cpp) |
@@ -134,10 +137,17 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 621C | [Wet Shark and Flowers](https://codeforces.com/contest/621/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/621/C%20-%20Wet%20Shark%20and%20Flowers/solution.cpp) |
 | 1950D | [Product of Binary Decimals](https://codeforces.com/contest/1950/problem/D) | 1100 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/D%20-%20Product%20of%20Binary%20Decimals/solution.cpp) |
 | 1950E | [Nearly Shortest Repeating Substring](https://codeforces.com/contest/1950/problem/E) | 1500 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/E%20-%20Nearly%20Shortest%20Repeating%20Substring/solution.cpp) |
 | 2238B | [Crimson Triples](https://codeforces.com/contest/2238/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2238/B%20-%20Crimson%20Triples/solution.cpp) |
 | 2246B | [ezraft and Array](https://codeforces.com/contest/2246/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2246/B%20-%20ezraft%20and%20Array/solution.cpp) |
+
+### probabilities
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 621C | [Wet Shark and Flowers](https://codeforces.com/contest/621/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/621/C%20-%20Wet%20Shark%20and%20Flowers/solution.cpp) |
 
 ### schedules
 
