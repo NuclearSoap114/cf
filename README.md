@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 39 | 22 |
+| 40 | 23 |
 
 ---
 
@@ -14,19 +14,20 @@
 
 - [Uncategorized](#uncategorized) (1)
 - [binary search](#binary-search) (4)
-- [bitmasks](#bitmasks) (3)
+- [bitmasks](#bitmasks) (4)
 - [brute force](#brute-force) (8)
 - [combinatorics](#combinatorics) (4)
 - [constructive algorithms](#constructive-algorithms) (8)
 - [data structures](#data-structures) (3)
 - [dfs and similar](#dfs-and-similar) (2)
-- [dp](#dp) (9)
+- [dp](#dp) (10)
 - [dsu](#dsu) (1)
+- [fft](#fft) (1)
 - [games](#games) (2)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (15)
+- [greedy](#greedy) (16)
 - [implementation](#implementation) (14)
-- [math](#math) (14)
+- [math](#math) (15)
 - [number theory](#number-theory) (8)
 - [probabilities](#probabilities) (1)
 - [schedules](#schedules) (1)
@@ -59,6 +60,7 @@
 | 451E | [Devu and Flowers](https://codeforces.com/contest/451/problem/E) | 2300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/451/E%20-%20Devu%20and%20Flowers/solution.cpp) |
 | 1950F | [0, 1, 2, Tree!](https://codeforces.com/contest/1950/problem/F) | 1700 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/F%20-%200%2C%201%2C%202%2C%20Tree!/solution.cpp) |
 | 2075D | [Equalization](https://codeforces.com/contest/2075/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2075/D%20-%20Equalization/solution.cpp) |
+| 2203B | [Beautiful Numbers](https://codeforces.com/contest/2203/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2203/B%20-%20Beautiful%20Numbers/solution.cpp) |
 
 ### brute force
 
@@ -119,6 +121,7 @@
 | 1954D | [Colored Balls](https://codeforces.com/contest/1954/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1954/D%20-%20Colored%20Balls/solution.cpp) |
 | 2075D | [Equalization](https://codeforces.com/contest/2075/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2075/D%20-%20Equalization/solution.cpp) |
 | 2145D | [Inversion Value of a Permutation](https://codeforces.com/contest/2145/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2145/D%20-%20Inversion%20Value%20of%20a%20Permutation/solution.cpp) |
+| 2203B | [Beautiful Numbers](https://codeforces.com/contest/2203/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2203/B%20-%20Beautiful%20Numbers/solution.cpp) |
 | 2228C1 | [Cirno and Number (Easy Version)](https://codeforces.com/contest/2228/problem/C1) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2228/C1%20-%20Cirno%20and%20Number%20(Easy%20Version)/solution.cpp) |
 | 2238B | [Crimson Triples](https://codeforces.com/contest/2238/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2238/B%20-%20Crimson%20Triples/solution.cpp) |
 | 2242D | [Two Digit Strings](https://codeforces.com/contest/2242/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2242/D%20-%20Two%20Digit%20Strings/solution.cpp) |
@@ -129,6 +132,12 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1954E | [Chain Reaction](https://codeforces.com/contest/1954/problem/E) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1954/E%20-%20Chain%20Reaction/solution.cpp) |
+
+### fft
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2203B | [Beautiful Numbers](https://codeforces.com/contest/2203/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2203/B%20-%20Beautiful%20Numbers/solution.cpp) |
 
 ### games
 
@@ -154,6 +163,7 @@
 | 2144B | [Maximum Cost Permutation](https://codeforces.com/contest/2144/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2144/B%20-%20Maximum%20Cost%20Permutation/solution.cpp) |
 | 2145B | [Deck of Cards](https://codeforces.com/contest/2145/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2145/B%20-%20Deck%20of%20Cards/solution.cpp) |
 | 2145C | [Monocarp's String](https://codeforces.com/contest/2145/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2145/C%20-%20Monocarp's%20String/solution.cpp) |
+| 2203B | [Beautiful Numbers](https://codeforces.com/contest/2203/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2203/B%20-%20Beautiful%20Numbers/solution.cpp) |
 | 2228A | [Marisa Steals Reimu's Takeout](https://codeforces.com/contest/2228/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2228/A%20-%20Marisa%20Steals%20Reimu's%20Takeout/solution.cpp) |
 | 2228C1 | [Cirno and Number (Easy Version)](https://codeforces.com/contest/2228/problem/C1) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2228/C1%20-%20Cirno%20and%20Number%20(Easy%20Version)/solution.cpp) |
 | 2237A | [Destroying Towers](https://codeforces.com/contest/2237/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2237/A%20-%20Destroying%20Towers/solution.cpp) |
@@ -194,6 +204,7 @@
 | 2075D | [Equalization](https://codeforces.com/contest/2075/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2075/D%20-%20Equalization/solution.cpp) |
 | 2144A | [Cut the Array](https://codeforces.com/contest/2144/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2144/A%20-%20Cut%20the%20Array/solution.cpp) |
 | 2145A | [Candies for Nephews](https://codeforces.com/contest/2145/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2145/A%20-%20Candies%20for%20Nephews/solution.cpp) |
+| 2203B | [Beautiful Numbers](https://codeforces.com/contest/2203/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2203/B%20-%20Beautiful%20Numbers/solution.cpp) |
 | 2237D | [Fullmetal Bitchemist](https://codeforces.com/contest/2237/problem/D) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2237/D%20-%20Fullmetal%20Bitchemist/solution.cpp) |
 | 2238A | [Another Puzzle from Papyrus](https://codeforces.com/contest/2238/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2238/A%20-%20Another%20Puzzle%20from%20Papyrus/solution.cpp) |
 | 2238B | [Crimson Triples](https://codeforces.com/contest/2238/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2238/B%20-%20Crimson%20Triples/solution.cpp) |
