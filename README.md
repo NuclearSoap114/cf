@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 49 | 23 |
+| 50 | 24 |
 
 ---
 
@@ -18,22 +18,23 @@
 - [brute force](#brute-force) (12)
 - [combinatorics](#combinatorics) (4)
 - [constructive algorithms](#constructive-algorithms) (8)
-- [data structures](#data-structures) (3)
+- [data structures](#data-structures) (4)
 - [dfs and similar](#dfs-and-similar) (4)
-- [dp](#dp) (12)
+- [divide and conquer](#divide-and-conquer) (1)
+- [dp](#dp) (13)
 - [dsu](#dsu) (2)
 - [fft](#fft) (1)
 - [games](#games) (2)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (20)
-- [implementation](#implementation) (16)
+- [greedy](#greedy) (21)
+- [implementation](#implementation) (17)
 - [math](#math) (20)
 - [number theory](#number-theory) (8)
 - [probabilities](#probabilities) (1)
 - [schedules](#schedules) (1)
 - [sortings](#sortings) (4)
 - [strings](#strings) (4)
-- [trees](#trees) (2)
+- [trees](#trees) (3)
 - [two pointers](#two-pointers) (3)
 
 ---
@@ -110,6 +111,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1954E | [Chain Reaction](https://codeforces.com/contest/1954/problem/E) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1954/E%20-%20Chain%20Reaction/solution.cpp) |
+| 2205D | [Simons and Beating Peaks](https://codeforces.com/contest/2205/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2205/D%20-%20Simons%20and%20Beating%20Peaks/solution.cpp) |
 | 2242B | [Predominant Frequency Division](https://codeforces.com/contest/2242/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2242/B%20-%20Predominant%20Frequency%20Division/solution.cpp) |
 | 2242C | [Unstable Elements](https://codeforces.com/contest/2242/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2242/C%20-%20Unstable%20Elements/solution.cpp) |
 
@@ -121,6 +123,12 @@
 | 2070D | [Tree Jumps](https://codeforces.com/contest/2070/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2070/D%20-%20Tree%20Jumps/solution.cpp) |
 | 2086C | [Disappearing Permutation](https://codeforces.com/contest/2086/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2086/C%20-%20Disappearing%20Permutation/solution.cpp) |
 | 2145D | [Inversion Value of a Permutation](https://codeforces.com/contest/2145/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2145/D%20-%20Inversion%20Value%20of%20a%20Permutation/solution.cpp) |
+
+### divide and conquer
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2205D | [Simons and Beating Peaks](https://codeforces.com/contest/2205/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2205/D%20-%20Simons%20and%20Beating%20Peaks/solution.cpp) |
 
 ### dp
 
@@ -134,6 +142,7 @@
 | 2086C | [Disappearing Permutation](https://codeforces.com/contest/2086/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2086/C%20-%20Disappearing%20Permutation/solution.cpp) |
 | 2145D | [Inversion Value of a Permutation](https://codeforces.com/contest/2145/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2145/D%20-%20Inversion%20Value%20of%20a%20Permutation/solution.cpp) |
 | 2203B | [Beautiful Numbers](https://codeforces.com/contest/2203/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2203/B%20-%20Beautiful%20Numbers/solution.cpp) |
+| 2205D | [Simons and Beating Peaks](https://codeforces.com/contest/2205/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2205/D%20-%20Simons%20and%20Beating%20Peaks/solution.cpp) |
 | 2228C1 | [Cirno and Number (Easy Version)](https://codeforces.com/contest/2228/problem/C1) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2228/C1%20-%20Cirno%20and%20Number%20(Easy%20Version)/solution.cpp) |
 | 2238B | [Crimson Triples](https://codeforces.com/contest/2238/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2238/B%20-%20Crimson%20Triples/solution.cpp) |
 | 2242D | [Two Digit Strings](https://codeforces.com/contest/2242/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2242/D%20-%20Two%20Digit%20Strings/solution.cpp) |
@@ -182,6 +191,7 @@
 | 2145C | [Monocarp's String](https://codeforces.com/contest/2145/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2145/C%20-%20Monocarp's%20String/solution.cpp) |
 | 2203B | [Beautiful Numbers](https://codeforces.com/contest/2203/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2203/B%20-%20Beautiful%20Numbers/solution.cpp) |
 | 2203C | [Test Generator](https://codeforces.com/contest/2203/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2203/C%20-%20Test%20Generator/solution.cpp) |
+| 2205D | [Simons and Beating Peaks](https://codeforces.com/contest/2205/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2205/D%20-%20Simons%20and%20Beating%20Peaks/solution.cpp) |
 | 2228A | [Marisa Steals Reimu's Takeout](https://codeforces.com/contest/2228/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2228/A%20-%20Marisa%20Steals%20Reimu's%20Takeout/solution.cpp) |
 | 2228C1 | [Cirno and Number (Easy Version)](https://codeforces.com/contest/2228/problem/C1) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2228/C1%20-%20Cirno%20and%20Number%20(Easy%20Version)/solution.cpp) |
 | 2237A | [Destroying Towers](https://codeforces.com/contest/2237/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2237/A%20-%20Destroying%20Towers/solution.cpp) |
@@ -205,6 +215,7 @@
 | 2070B | [Robot Program](https://codeforces.com/contest/2070/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2070/B%20-%20Robot%20Program/solution.cpp) |
 | 2086C | [Disappearing Permutation](https://codeforces.com/contest/2086/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2086/C%20-%20Disappearing%20Permutation/solution.cpp) |
 | 2145B | [Deck of Cards](https://codeforces.com/contest/2145/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2145/B%20-%20Deck%20of%20Cards/solution.cpp) |
+| 2205D | [Simons and Beating Peaks](https://codeforces.com/contest/2205/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2205/D%20-%20Simons%20and%20Beating%20Peaks/solution.cpp) |
 | 2228A | [Marisa Steals Reimu's Takeout](https://codeforces.com/contest/2228/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2228/A%20-%20Marisa%20Steals%20Reimu's%20Takeout/solution.cpp) |
 | 2228B | [Remilia Plays Soku](https://codeforces.com/contest/2228/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2228/B%20-%20Remilia%20Plays%20Soku/solution.cpp) |
 | 2228C1 | [Cirno and Number (Easy Version)](https://codeforces.com/contest/2228/problem/C1) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2228/C1%20-%20Cirno%20and%20Number%20(Easy%20Version)/solution.cpp) |
@@ -286,6 +297,7 @@
 |---|---------|------------|----------|
 | 1950F | [0, 1, 2, Tree!](https://codeforces.com/contest/1950/problem/F) | 1700 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/F%20-%200%2C%201%2C%202%2C%20Tree!/solution.cpp) |
 | 2070D | [Tree Jumps](https://codeforces.com/contest/2070/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2070/D%20-%20Tree%20Jumps/solution.cpp) |
+| 2205D | [Simons and Beating Peaks](https://codeforces.com/contest/2205/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2205/D%20-%20Simons%20and%20Beating%20Peaks/solution.cpp) |
 
 ### two pointers
 
