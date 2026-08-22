@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 67 | 26 |
+| 68 | 26 |
 
 ---
 
@@ -19,7 +19,7 @@
 - [combinatorics](#combinatorics) (6)
 - [constructive algorithms](#constructive-algorithms) (8)
 - [data structures](#data-structures) (10)
-- [dfs and similar](#dfs-and-similar) (5)
+- [dfs and similar](#dfs-and-similar) (6)
 - [divide and conquer](#divide-and-conquer) (1)
 - [dp](#dp) (21)
 - [dsu](#dsu) (2)
@@ -145,6 +145,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 505C | [Mr. Kitayuta, the Treasure Hunter](https://codeforces.com/contest/505/problem/C) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/505/C%20-%20Mr.%20Kitayuta%2C%20the%20Treasure%20Hunter/solution.cpp) |
+| 540C | [Ice Cave](https://codeforces.com/contest/540/problem/C) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/540/C%20-%20Ice%20Cave/solution.cpp) |
 | 2070D | [Tree Jumps](https://codeforces.com/contest/2070/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2070/D%20-%20Tree%20Jumps/solution.cpp) |
 | 2086C | [Disappearing Permutation](https://codeforces.com/contest/2086/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2086/C%20-%20Disappearing%20Permutation/solution.cpp) |
 | 2110D | [Fewer Batteries](https://codeforces.com/contest/2110/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2110/D%20-%20Fewer%20Batteries/solution.cpp) |
