@@ -18,7 +18,7 @@ set<int> st;
 V<int> a;
  
 void dfs(int pos,int num,int cnt){
-    if(cnt > 3 || pos > 19)return ;
+    if(cnt > 3 || pos > 18)return ;
     if(num) st.is(num);
     dfs(pos + 1,num * 10,cnt);
     if(cnt == 3)return ;
@@ -37,6 +37,7 @@ signed main(){
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     dfs(0,0,0);
+    st.is(1e18);
     for(int x : st)a.pb(x);
     cin >> T;
     while(T--)O_o();
