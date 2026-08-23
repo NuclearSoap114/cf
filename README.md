@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 69 | 26 |
+| 70 | 26 |
 
 ---
 
@@ -16,12 +16,12 @@
 - [binary search](#binary-search) (12)
 - [bitmasks](#bitmasks) (5)
 - [brute force](#brute-force) (17)
-- [combinatorics](#combinatorics) (6)
+- [combinatorics](#combinatorics) (7)
 - [constructive algorithms](#constructive-algorithms) (8)
 - [data structures](#data-structures) (10)
 - [dfs and similar](#dfs-and-similar) (6)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (22)
+- [dp](#dp) (23)
 - [dsu](#dsu) (2)
 - [fft](#fft) (1)
 - [games](#games) (2)
@@ -107,6 +107,7 @@
 |---|---------|------------|----------|
 | 451E | [Devu and Flowers](https://codeforces.com/contest/451/problem/E) | 2300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/451/E%20-%20Devu%20and%20Flowers/solution.cpp) |
 | 621C | [Wet Shark and Flowers](https://codeforces.com/contest/621/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/621/C%20-%20Wet%20Shark%20and%20Flowers/solution.cpp) |
+| 1036C | [Classy Numbers](https://codeforces.com/contest/1036/problem/C) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1036/C%20-%20Classy%20Numbers/solution.cpp) |
 | 1400D | [Zigzags](https://codeforces.com/contest/1400/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1400/D%20-%20Zigzags/solution.cpp) |
 | 1954D | [Colored Balls](https://codeforces.com/contest/1954/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1954/D%20-%20Colored%20Balls/solution.cpp) |
 | 2128D | [Sum of LDS](https://codeforces.com/contest/2128/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2128/D%20-%20Sum%20of%20LDS/solution.cpp) |
@@ -164,6 +165,7 @@
 | 466C | [Number of Ways](https://codeforces.com/contest/466/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/466/C%20-%20Number%20of%20Ways/solution.cpp) |
 | 478D | [Red-Green Towers](https://codeforces.com/contest/478/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/478/D%20-%20Red-Green%20Towers/solution.cpp) |
 | 505C | [Mr. Kitayuta, the Treasure Hunter](https://codeforces.com/contest/505/problem/C) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/505/C%20-%20Mr.%20Kitayuta%2C%20the%20Treasure%20Hunter/solution.cpp) |
+| 1036C | [Classy Numbers](https://codeforces.com/contest/1036/problem/C) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1036/C%20-%20Classy%20Numbers/solution.cpp) |
 | 1398C | [Good Subarrays](https://codeforces.com/contest/1398/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1398/C%20-%20Good%20Subarrays/solution.cpp) |
 | 1526C1 | [Potions (Easy Version)](https://codeforces.com/contest/1526/problem/C1) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1526/C1%20-%20Potions%20(Easy%20Version)/solution.cpp) |
 | 1950D | [Product of Binary Decimals](https://codeforces.com/contest/1950/problem/D) | 1100 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/D%20-%20Product%20of%20Binary%20Decimals/solution.cpp) |
