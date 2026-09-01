@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 72 | 26 |
+| 73 | 26 |
 
 ---
 
@@ -19,14 +19,14 @@
 - [combinatorics](#combinatorics) (7)
 - [constructive algorithms](#constructive-algorithms) (8)
 - [data structures](#data-structures) (12)
-- [dfs and similar](#dfs-and-similar) (6)
+- [dfs and similar](#dfs-and-similar) (7)
 - [divide and conquer](#divide-and-conquer) (2)
-- [dp](#dp) (23)
+- [dp](#dp) (24)
 - [dsu](#dsu) (4)
 - [fft](#fft) (1)
 - [games](#games) (2)
 - [graphs](#graphs) (5)
-- [greedy](#greedy) (27)
+- [greedy](#greedy) (28)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (19)
 - [math](#math) (24)
@@ -36,7 +36,7 @@
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (7)
 - [strings](#strings) (5)
-- [trees](#trees) (3)
+- [trees](#trees) (4)
 - [two pointers](#two-pointers) (5)
 
 ---
@@ -150,6 +150,7 @@
 |---|---------|------------|----------|
 | 505C | [Mr. Kitayuta, the Treasure Hunter](https://codeforces.com/contest/505/problem/C) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/505/C%20-%20Mr.%20Kitayuta%2C%20the%20Treasure%20Hunter/solution.cpp) |
 | 540C | [Ice Cave](https://codeforces.com/contest/540/problem/C) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/540/C%20-%20Ice%20Cave/solution.cpp) |
+| 1294F | [Three Paths on a Tree](https://codeforces.com/contest/1294/problem/F) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1294/F%20-%20Three%20Paths%20on%20a%20Tree/solution.cpp) |
 | 2070D | [Tree Jumps](https://codeforces.com/contest/2070/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2070/D%20-%20Tree%20Jumps/solution.cpp) |
 | 2086C | [Disappearing Permutation](https://codeforces.com/contest/2086/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2086/C%20-%20Disappearing%20Permutation/solution.cpp) |
 | 2110D | [Fewer Batteries](https://codeforces.com/contest/2110/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2110/D%20-%20Fewer%20Batteries/solution.cpp) |
@@ -170,6 +171,7 @@
 | 478D | [Red-Green Towers](https://codeforces.com/contest/478/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/478/D%20-%20Red-Green%20Towers/solution.cpp) |
 | 505C | [Mr. Kitayuta, the Treasure Hunter](https://codeforces.com/contest/505/problem/C) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/505/C%20-%20Mr.%20Kitayuta%2C%20the%20Treasure%20Hunter/solution.cpp) |
 | 1036C | [Classy Numbers](https://codeforces.com/contest/1036/problem/C) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1036/C%20-%20Classy%20Numbers/solution.cpp) |
+| 1294F | [Three Paths on a Tree](https://codeforces.com/contest/1294/problem/F) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1294/F%20-%20Three%20Paths%20on%20a%20Tree/solution.cpp) |
 | 1398C | [Good Subarrays](https://codeforces.com/contest/1398/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1398/C%20-%20Good%20Subarrays/solution.cpp) |
 | 1526C1 | [Potions (Easy Version)](https://codeforces.com/contest/1526/problem/C1) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1526/C1%20-%20Potions%20(Easy%20Version)/solution.cpp) |
 | 1950D | [Product of Binary Decimals](https://codeforces.com/contest/1950/problem/D) | 1100 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/D%20-%20Product%20of%20Binary%20Decimals/solution.cpp) |
@@ -226,6 +228,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1294F | [Three Paths on a Tree](https://codeforces.com/contest/1294/problem/F) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1294/F%20-%20Three%20Paths%20on%20a%20Tree/solution.cpp) |
 | 1526C1 | [Potions (Easy Version)](https://codeforces.com/contest/1526/problem/C1) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1526/C1%20-%20Potions%20(Easy%20Version)/solution.cpp) |
 | 1950F | [0, 1, 2, Tree!](https://codeforces.com/contest/1950/problem/F) | 1700 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/F%20-%200%2C%201%2C%202%2C%20Tree!/solution.cpp) |
 | 1954E | [Chain Reaction](https://codeforces.com/contest/1954/problem/E) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1954/E%20-%20Chain%20Reaction/solution.cpp) |
@@ -370,6 +373,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1294F | [Three Paths on a Tree](https://codeforces.com/contest/1294/problem/F) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1294/F%20-%20Three%20Paths%20on%20a%20Tree/solution.cpp) |
 | 1950F | [0, 1, 2, Tree!](https://codeforces.com/contest/1950/problem/F) | 1700 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/F%20-%200%2C%201%2C%202%2C%20Tree!/solution.cpp) |
 | 2070D | [Tree Jumps](https://codeforces.com/contest/2070/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2070/D%20-%20Tree%20Jumps/solution.cpp) |
 | 2205D | [Simons and Beating Peaks](https://codeforces.com/contest/2205/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2205/D%20-%20Simons%20and%20Beating%20Peaks/solution.cpp) |
