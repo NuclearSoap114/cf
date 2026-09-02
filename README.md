@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 1 | 4 |
+| 2 | 6 |
 
 ---
 
@@ -15,6 +15,8 @@
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (1)
 - [greedy](#greedy) (1)
+- [implementation](#implementation) (1)
+- [sortings](#sortings) (1)
 - [trees](#trees) (1)
 
 ---
@@ -36,6 +38,18 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1294F | [Three Paths on a Tree](https://codeforces.com/contest/1294/problem/F) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1294/F%20-%20Three%20Paths%20on%20a%20Tree/solution.cpp) |
+
+### implementation
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2254/A%20-%20Riptide/solution.cpp) |
+
+### sortings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2254/A%20-%20Riptide/solution.cpp) |
 
 ### trees
 
