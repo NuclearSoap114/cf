@@ -6,16 +6,16 @@
 
 | Total Problems | Topics |
 |---|---|
-| 76 | 26 |
+| 77 | 27 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [Uncategorized](#uncategorized) (6)
-- [binary search](#binary-search) (12)
+- [binary search](#binary-search) (13)
 - [bitmasks](#bitmasks) (5)
-- [brute force](#brute-force) (19)
+- [brute force](#brute-force) (20)
 - [combinatorics](#combinatorics) (7)
 - [constructive algorithms](#constructive-algorithms) (8)
 - [data structures](#data-structures) (13)
@@ -25,11 +25,12 @@
 - [dsu](#dsu) (4)
 - [fft](#fft) (1)
 - [games](#games) (2)
+- [geometry](#geometry) (1)
 - [graphs](#graphs) (5)
-- [greedy](#greedy) (30)
+- [greedy](#greedy) (31)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (19)
-- [math](#math) (25)
+- [implementation](#implementation) (20)
+- [math](#math) (26)
 - [number theory](#number-theory) (9)
 - [probabilities](#probabilities) (1)
 - [schedules](#schedules) (1)
@@ -68,6 +69,7 @@
 | 2203C | [Test Generator](https://codeforces.com/contest/2203/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2203/C%20-%20Test%20Generator/solution.cpp) |
 | 2228C1 | [Cirno and Number (Easy Version)](https://codeforces.com/contest/2228/problem/C1) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2228/C1%20-%20Cirno%20and%20Number%20(Easy%20Version)/solution.cpp) |
 | 2237C | [Duck Surplus](https://codeforces.com/contest/2237/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2237/C%20-%20Duck%20Surplus/solution.cpp) |
+| 2253D | [Hypercarp and Interdimensional Jumps](https://codeforces.com/contest/2253/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2253/D%20-%20Hypercarp%20and%20Interdimensional%20Jumps/solution.cpp) |
 
 ### bitmasks
 
@@ -102,6 +104,7 @@
 | 2237B | [Annoying the Ghost](https://codeforces.com/contest/2237/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2237/B%20-%20Annoying%20the%20Ghost/solution.cpp) |
 | 2242C | [Unstable Elements](https://codeforces.com/contest/2242/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2242/C%20-%20Unstable%20Elements/solution.cpp) |
 | 2253B | [Hypercarp and the Control Panel](https://codeforces.com/contest/2253/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2253/B%20-%20Hypercarp%20and%20the%20Control%20Panel/solution.cpp) |
+| 2253D | [Hypercarp and Interdimensional Jumps](https://codeforces.com/contest/2253/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2253/D%20-%20Hypercarp%20and%20Interdimensional%20Jumps/solution.cpp) |
 
 ### combinatorics
 
@@ -218,6 +221,12 @@
 | 2228B | [Remilia Plays Soku](https://codeforces.com/contest/2228/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2228/B%20-%20Remilia%20Plays%20Soku/solution.cpp) |
 | 2237A | [Destroying Towers](https://codeforces.com/contest/2237/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2237/A%20-%20Destroying%20Towers/solution.cpp) |
 
+### geometry
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2253D | [Hypercarp and Interdimensional Jumps](https://codeforces.com/contest/2253/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2253/D%20-%20Hypercarp%20and%20Interdimensional%20Jumps/solution.cpp) |
+
 ### graphs
 
 | # | Problem | Difficulty | Solution |
@@ -262,6 +271,7 @@
 | 2238A | [Another Puzzle from Papyrus](https://codeforces.com/contest/2238/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2238/A%20-%20Another%20Puzzle%20from%20Papyrus/solution.cpp) |
 | 2242B | [Predominant Frequency Division](https://codeforces.com/contest/2242/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2242/B%20-%20Predominant%20Frequency%20Division/solution.cpp) |
 | 2253A | [The Best Card](https://codeforces.com/contest/2253/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2253/A%20-%20The%20Best%20Card/solution.cpp) |
+| 2253D | [Hypercarp and Interdimensional Jumps](https://codeforces.com/contest/2253/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2253/D%20-%20Hypercarp%20and%20Interdimensional%20Jumps/solution.cpp) |
 
 ### hashing
 
@@ -292,6 +302,7 @@
 | 2242B | [Predominant Frequency Division](https://codeforces.com/contest/2242/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2242/B%20-%20Predominant%20Frequency%20Division/solution.cpp) |
 | 2242C | [Unstable Elements](https://codeforces.com/contest/2242/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2242/C%20-%20Unstable%20Elements/solution.cpp) |
 | 2250A | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2250/A%20-%20Threshold%20Movement/solution.cpp) |
+| 2253D | [Hypercarp and Interdimensional Jumps](https://codeforces.com/contest/2253/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2253/D%20-%20Hypercarp%20and%20Interdimensional%20Jumps/solution.cpp) |
 
 ### math
 
@@ -322,6 +333,7 @@
 | 2246C | [0mar and Alternating Sums](https://codeforces.com/contest/2246/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2246/C%20-%200mar%20and%20Alternating%20Sums/solution.cpp) |
 | 2250A | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2250/A%20-%20Threshold%20Movement/solution.cpp) |
 | 2253A | [The Best Card](https://codeforces.com/contest/2253/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2253/A%20-%20The%20Best%20Card/solution.cpp) |
+| 2253D | [Hypercarp and Interdimensional Jumps](https://codeforces.com/contest/2253/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2253/D%20-%20Hypercarp%20and%20Interdimensional%20Jumps/solution.cpp) |
 
 ### number theory
 
