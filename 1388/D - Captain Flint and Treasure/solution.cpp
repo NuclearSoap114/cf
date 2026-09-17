@@ -1,81 +1,54 @@
-#include <bits/stdc++.h>
+%:include<bits/stdc++.h>
 using namespace std;
-#define int long long
-const int N = 2e5 + 10;
-int n,a[N],b[N],indeg[N];
-vector<int> G[N];
+%:define int long long
+%:define P push_back
+const int N=2e5+012;
+int n,a<:N:>,b<:N:>,d<:N:>;
+vector<int>p,ng;
+queue<int>q;
+auto O_o()<%
+    int i=01,u=00,ans=00;
+    cin>>n;
+A:  if(i>n)goto B;
+    cin>>i<:a:>;++i;goto A;
  
-void O_o(){
-    int ans = 0;
-    cin >> n;
-    for(int i = 1;i <= n;i++){
-        cin >> a[i];
-    }
+B:  i=01;
+C:  if(i>n)goto D;
+    cin>>i<:b:>;++i;goto C;
  
-    for(int i = 1;i <= n;i++){
-        cin >> b[i];
-    }
+D:  i=01;
+E:  if(i>n)goto F;
+    if(i<:b:> not_eq compl 00)++i<:b:><:d:>;
+    ++i;goto E;
+F:  i=01;
+G:  if(i>n)goto H;
+    if(not i<:d:>)q.push(i);
+    ++i;goto G;
+H:  if(q.empty())goto O;
+    u=q.front(),q.pop(),ans+=u<:a:>;
+    if(u<:a:><00)goto N;
+    p.P(u);
+    if(u<:b:> not_eq compl 00)
+        u<:b:><:a:>+=u<:a:>;
+    goto K;
+N:  ng.P(u);
+K:  if(u<:b:> not_eq compl 00)<%
+        --u<:b:><:d:>;
+        if(not u<:b:><:d:>)q.push(u<:b:>);
+    %>
+    goto H;
+O:  cout<<ans<<'
+';i=00;
+P0: if(i==(int)p.size())goto P1;
+    cout<<p<:i:><<' ';++i;goto P0;
+P1: i=ng.size();
+P2: if(not i)goto P3;
+    cout<<ng<:--i:><<' ';goto P2;
  
-    for(int i = 1;i <= n;i++){
-        if(b[i] != -1){
-            G[i].push_back(b[i]);
-            indeg[b[i]]++;
-        }
-    }
- 
-    queue<int> q;
- 
-    for(int i = 1;i <= n;i++){
-        if(indeg[i] == 0){
-            q.push(i);
-        }
-    }
- 
-    vector<int> p,neg;
- 
-    while(!q.empty()){
-        int u = q.front();
-        q.pop();
- 
-        ans += a[u];
- 
-        if(a[u] >= 0){
-            p.push_back(u);
-            if(b[u] != -1){
-                a[b[u]] += a[u];
-            }
-        }else{
-            neg.push_back(u);
-        }
- 
-        for(auto v : G[u]){
-            indeg[v]--;
-            if(indeg[v] <= 0){
-                q.push(v);
-            }
-        }
-    }
- 
-    cout << ans << '
+P3: cout<<'
 ';
- 
-    for(int u : p){
-        cout << u << ' ';
-    }
- 
-    reverse(neg.begin(),neg.end());
- 
-    for(int u : neg){
-        cout << u << ' ';
-    }
- 
-    cout << '
-';
-}
- 
-signed main(){
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+%>
+signed main()<%
+    ios::sync_with_stdio(0);cin.tie(0);
     O_o();
-    return 0;
-}   
+%>
