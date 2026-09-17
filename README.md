@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 80 | 27 |
+| 82 | 27 |
 
 ---
 
@@ -18,18 +18,18 @@
 - [brute force](#brute-force) (20)
 - [combinatorics](#combinatorics) (7)
 - [constructive algorithms](#constructive-algorithms) (10)
-- [data structures](#data-structures) (13)
-- [dfs and similar](#dfs-and-similar) (7)
-- [divide and conquer](#divide-and-conquer) (3)
-- [dp](#dp) (25)
+- [data structures](#data-structures) (14)
+- [dfs and similar](#dfs-and-similar) (9)
+- [divide and conquer](#divide-and-conquer) (4)
+- [dp](#dp) (26)
 - [dsu](#dsu) (5)
 - [fft](#fft) (1)
 - [games](#games) (2)
 - [geometry](#geometry) (1)
-- [graphs](#graphs) (6)
-- [greedy](#greedy) (34)
+- [graphs](#graphs) (7)
+- [greedy](#greedy) (35)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (21)
+- [implementation](#implementation) (22)
 - [math](#math) (27)
 - [number theory](#number-theory) (9)
 - [probabilities](#probabilities) (1)
@@ -37,7 +37,7 @@
 - [shortest paths](#shortest-paths) (2)
 - [sortings](#sortings) (7)
 - [strings](#strings) (6)
-- [trees](#trees) (5)
+- [trees](#trees) (7)
 - [two pointers](#two-pointers) (7)
 
 ---
@@ -139,6 +139,7 @@
 |---|---------|------------|----------|
 | 466C | [Number of Ways](https://codeforces.com/contest/466/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/466/C%20-%20Number%20of%20Ways/solution.cpp) |
 | 817D | [Imbalanced Array](https://codeforces.com/contest/817/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/817/D%20-%20Imbalanced%20Array/solution.cpp) |
+| 1388D | [Captain Flint and Treasure](https://codeforces.com/contest/1388/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1388/D%20-%20Captain%20Flint%20and%20Treasure/solution.cpp) |
 | 1398C | [Good Subarrays](https://codeforces.com/contest/1398/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1398/C%20-%20Good%20Subarrays/solution.cpp) |
 | 1400D | [Zigzags](https://codeforces.com/contest/1400/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1400/D%20-%20Zigzags/solution.cpp) |
 | 1526C1 | [Potions (Easy Version)](https://codeforces.com/contest/1526/problem/C1) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1526/C1%20-%20Potions%20(Easy%20Version)/solution.cpp) |
@@ -155,9 +156,11 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 337D | [Book of Evil](https://codeforces.com/contest/337/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/337/D%20-%20Book%20of%20Evil/solution.cpp) |
 | 505C | [Mr. Kitayuta, the Treasure Hunter](https://codeforces.com/contest/505/problem/C) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/505/C%20-%20Mr.%20Kitayuta%2C%20the%20Treasure%20Hunter/solution.cpp) |
 | 540C | [Ice Cave](https://codeforces.com/contest/540/problem/C) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/540/C%20-%20Ice%20Cave/solution.cpp) |
 | 1294F | [Three Paths on a Tree](https://codeforces.com/contest/1294/problem/F) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1294/F%20-%20Three%20Paths%20on%20a%20Tree/solution.cpp) |
+| 1388D | [Captain Flint and Treasure](https://codeforces.com/contest/1388/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1388/D%20-%20Captain%20Flint%20and%20Treasure/solution.cpp) |
 | 2070D | [Tree Jumps](https://codeforces.com/contest/2070/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2070/D%20-%20Tree%20Jumps/solution.cpp) |
 | 2086C | [Disappearing Permutation](https://codeforces.com/contest/2086/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2086/C%20-%20Disappearing%20Permutation/solution.cpp) |
 | 2110D | [Fewer Batteries](https://codeforces.com/contest/2110/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2110/D%20-%20Fewer%20Batteries/solution.cpp) |
@@ -167,6 +170,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 337D | [Book of Evil](https://codeforces.com/contest/337/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/337/D%20-%20Book%20of%20Evil/solution.cpp) |
 | 448C | [Painting Fence](https://codeforces.com/contest/448/problem/C) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/448/C%20-%20Painting%20Fence/solution.cpp) |
 | 817D | [Imbalanced Array](https://codeforces.com/contest/817/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/817/D%20-%20Imbalanced%20Array/solution.cpp) |
 | 2205D | [Simons and Beating Peaks](https://codeforces.com/contest/2205/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2205/D%20-%20Simons%20and%20Beating%20Peaks/solution.cpp) |
@@ -175,6 +179,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 337D | [Book of Evil](https://codeforces.com/contest/337/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/337/D%20-%20Book%20of%20Evil/solution.cpp) |
 | 448C | [Painting Fence](https://codeforces.com/contest/448/problem/C) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/448/C%20-%20Painting%20Fence/solution.cpp) |
 | 466C | [Number of Ways](https://codeforces.com/contest/466/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/466/C%20-%20Number%20of%20Ways/solution.cpp) |
 | 478D | [Red-Green Towers](https://codeforces.com/contest/478/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/478/D%20-%20Red-Green%20Towers/solution.cpp) |
@@ -235,6 +240,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1245D | [Shichikuji and Power Grid](https://codeforces.com/contest/1245/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1245/D%20-%20Shichikuji%20and%20Power%20Grid/solution.cpp) |
+| 1388D | [Captain Flint and Treasure](https://codeforces.com/contest/1388/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1388/D%20-%20Captain%20Flint%20and%20Treasure/solution.cpp) |
 | 2059D | [Graph and Graph](https://codeforces.com/contest/2059/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2059/D%20-%20Graph%20and%20Graph/solution.cpp) |
 | 2075D | [Equalization](https://codeforces.com/contest/2075/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2075/D%20-%20Equalization/solution.cpp) |
 | 2086C | [Disappearing Permutation](https://codeforces.com/contest/2086/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2086/C%20-%20Disappearing%20Permutation/solution.cpp) |
@@ -249,6 +255,7 @@
 | 1245D | [Shichikuji and Power Grid](https://codeforces.com/contest/1245/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1245/D%20-%20Shichikuji%20and%20Power%20Grid/solution.cpp) |
 | 1294F | [Three Paths on a Tree](https://codeforces.com/contest/1294/problem/F) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1294/F%20-%20Three%20Paths%20on%20a%20Tree/solution.cpp) |
 | 1353A | [Most Unstable Array](https://codeforces.com/contest/1353/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1353/A%20-%20Most%20Unstable%20Array/solution.cpp) |
+| 1388D | [Captain Flint and Treasure](https://codeforces.com/contest/1388/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1388/D%20-%20Captain%20Flint%20and%20Treasure/solution.cpp) |
 | 1508A | [Binary Literature](https://codeforces.com/contest/1508/problem/A) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1508/A%20-%20Binary%20Literature/solution.cpp) |
 | 1526C1 | [Potions (Easy Version)](https://codeforces.com/contest/1526/problem/C1) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1526/C1%20-%20Potions%20(Easy%20Version)/solution.cpp) |
 | 1950F | [0, 1, 2, Tree!](https://codeforces.com/contest/1950/problem/F) | 1700 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/F%20-%200%2C%201%2C%202%2C%20Tree!/solution.cpp) |
@@ -290,6 +297,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1388D | [Captain Flint and Treasure](https://codeforces.com/contest/1388/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1388/D%20-%20Captain%20Flint%20and%20Treasure/solution.cpp) |
 | 1508A | [Binary Literature](https://codeforces.com/contest/1508/problem/A) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1508/A%20-%20Binary%20Literature/solution.cpp) |
 | 1922D | [Berserk Monsters](https://codeforces.com/contest/1922/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1922/D%20-%20Berserk%20Monsters/solution.cpp) |
 | 1950A | [Stair, Peak, or Neither?](https://codeforces.com/contest/1950/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/A%20-%20Stair%2C%20Peak%2C%20or%20Neither%3F/solution.cpp) |
@@ -404,8 +412,10 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 337D | [Book of Evil](https://codeforces.com/contest/337/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/337/D%20-%20Book%20of%20Evil/solution.cpp) |
 | 1245D | [Shichikuji and Power Grid](https://codeforces.com/contest/1245/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1245/D%20-%20Shichikuji%20and%20Power%20Grid/solution.cpp) |
 | 1294F | [Three Paths on a Tree](https://codeforces.com/contest/1294/problem/F) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1294/F%20-%20Three%20Paths%20on%20a%20Tree/solution.cpp) |
+| 1388D | [Captain Flint and Treasure](https://codeforces.com/contest/1388/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1388/D%20-%20Captain%20Flint%20and%20Treasure/solution.cpp) |
 | 1950F | [0, 1, 2, Tree!](https://codeforces.com/contest/1950/problem/F) | 1700 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/F%20-%200%2C%201%2C%202%2C%20Tree!/solution.cpp) |
 | 2070D | [Tree Jumps](https://codeforces.com/contest/2070/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2070/D%20-%20Tree%20Jumps/solution.cpp) |
 | 2205D | [Simons and Beating Peaks](https://codeforces.com/contest/2205/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2205/D%20-%20Simons%20and%20Beating%20Peaks/solution.cpp) |
