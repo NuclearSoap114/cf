@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 82 | 27 |
+| 83 | 27 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (6)
+- [Uncategorized](#uncategorized) (7)
 - [binary search](#binary-search) (13)
 - [bitmasks](#bitmasks) (5)
 - [brute force](#brute-force) (20)
@@ -52,6 +52,7 @@
 | 2257C | [Spying on the Beaver](https://codeforces.com/contest/2257/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2257/C%20-%20Spying%20on%20the%20Beaver/solution.cpp) |
 | 2257D | [Bermuda Rectangle](https://codeforces.com/contest/2257/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2257/D%20-%20Bermuda%20Rectangle/solution.cpp) |
 | 2257E | [Busy Beaver](https://codeforces.com/contest/2257/problem/E) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2257/E%20-%20Busy%20Beaver/solution.cpp) |
+| 2267A | [Turn Into a Palindrome](https://codeforces.com/contest/2267/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2267/A%20-%20Turn%20Into%20a%20Palindrome/solution.cpp) |
 
 ### binary search
 
