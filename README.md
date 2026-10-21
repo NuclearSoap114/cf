@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 87 | 27 |
+| 88 | 27 |
 
 ---
 
@@ -15,10 +15,10 @@
 - [Uncategorized](#uncategorized) (10)
 - [binary search](#binary-search) (13)
 - [bitmasks](#bitmasks) (5)
-- [brute force](#brute-force) (20)
+- [brute force](#brute-force) (21)
 - [combinatorics](#combinatorics) (8)
 - [constructive algorithms](#constructive-algorithms) (10)
-- [data structures](#data-structures) (14)
+- [data structures](#data-structures) (15)
 - [dfs and similar](#dfs-and-similar) (9)
 - [divide and conquer](#divide-and-conquer) (4)
 - [dp](#dp) (26)
@@ -109,6 +109,7 @@
 | 2242C | [Unstable Elements](https://codeforces.com/contest/2242/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2242/C%20-%20Unstable%20Elements/solution.cpp) |
 | 2253B | [Hypercarp and the Control Panel](https://codeforces.com/contest/2253/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2253/B%20-%20Hypercarp%20and%20the%20Control%20Panel/solution.cpp) |
 | 2253D | [Hypercarp and Interdimensional Jumps](https://codeforces.com/contest/2253/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2253/D%20-%20Hypercarp%20and%20Interdimensional%20Jumps/solution.cpp) |
+| 2275C | [Unrequited Love](https://codeforces.com/contest/2275/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2275/C%20-%20Unrequited%20Love/solution.cpp) |
 
 ### combinatorics
 
@@ -156,6 +157,7 @@
 | 2242B | [Predominant Frequency Division](https://codeforces.com/contest/2242/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2242/B%20-%20Predominant%20Frequency%20Division/solution.cpp) |
 | 2242C | [Unstable Elements](https://codeforces.com/contest/2242/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2242/C%20-%20Unstable%20Elements/solution.cpp) |
 | 2253B | [Hypercarp and the Control Panel](https://codeforces.com/contest/2253/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2253/B%20-%20Hypercarp%20and%20the%20Control%20Panel/solution.cpp) |
+| 2275C | [Unrequited Love](https://codeforces.com/contest/2275/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2275/C%20-%20Unrequited%20Love/solution.cpp) |
 
 ### dfs and similar
 
