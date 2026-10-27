@@ -1,0 +1,26 @@
+<h2><a href="https://codeforces.com/contest/2121/problem/F" target="_blank" rel="noopener noreferrer">2121F — Yamakasi</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1800 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 2121F](https://codeforces.com/contest/2121/problem/F) |
+
+## Topics
+`binary search` `brute force` `data structures` `greedy` `two pointers`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">F. Yamakasi</div><div class="time-limit"><div class="property-title">time limit per test</div>3 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>You are given an array of integers $$$a_1, a_2, \ldots, a_n$$$ and two integers $$$s$$$ and $$$x$$$. Count the number of subsegments of the array whose sum of elements equals $$$s$$$ and whose maximum value equals $$$x$$$.</p><p>More formally, count the number of pairs $$$1 \leq l \leq r \leq n$$$ such that:</p><ul><li> $$$a_l + a_{l + 1} + \ldots + a_r = s$$$. </li><li> $$$\max(a_l, a_{l + 1}, \ldots, a_r) = x$$$. </li></ul></div><div class="input-specification"><div class="section-title">Input</div><p>Each test consists of multiple test cases. The first line contains a single integer $$$t$$$ ($$$1 \leq t \leq 10^4$$$) — the number of test cases. The description of the test cases follows.</p><p>The first line of each test case contains three integers $$$n$$$, $$$s$$$, and $$$x$$$ ($$$1 \leq n \leq 2 \cdot 10^5$$$, $$$-2 \cdot 10^{14} \leq s \leq 2 \cdot 10^{14}$$$, $$$-10^9 \leq x \leq 10^9$$$). </p><p>The second line of each test case contains $$$n$$$ integers $$$a_1, a_2, \ldots, a_n$$$ ($$$-10^9 \leq a_i \leq 10^9$$$).</p><p>It is guaranteed that the sum of $$$n$$$ across all test cases does not exceed $$$2 \cdot 10^5$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output the number of subsegments of the array whose sum of elements equals $$$s$$$ and whose maximum value equals $$$x$$$.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id009924738116939552" id="id007636916094008502" class="input-output-copier">Copy</div></div><pre id="id009924738116939552"><div class="test-example-line test-example-line-even test-example-line-0">9</div><div class="test-example-line test-example-line-odd test-example-line-1">1 0 0</div><div class="test-example-line test-example-line-odd test-example-line-1">0</div><div class="test-example-line test-example-line-even test-example-line-2">1 -2 -1</div><div class="test-example-line test-example-line-even test-example-line-2">-2</div><div class="test-example-line test-example-line-odd test-example-line-3">3 -1 -1</div><div class="test-example-line test-example-line-odd test-example-line-3">-1 1 -1</div><div class="test-example-line test-example-line-even test-example-line-4">6 -3 -2</div><div class="test-example-line test-example-line-even test-example-line-4">-1 -1 -1 -2 -1 -1</div><div class="test-example-line test-example-line-odd test-example-line-5">8 3 2</div><div class="test-example-line test-example-line-odd test-example-line-5">2 2 -1 -2 3 -1 2 2</div><div class="test-example-line test-example-line-even test-example-line-6">9 6 3</div><div class="test-example-line test-example-line-even test-example-line-6">1 2 3 1 2 3 1 2 3</div><div class="test-example-line test-example-line-odd test-example-line-7">13 7 3</div><div class="test-example-line test-example-line-odd test-example-line-7">0 -1 3 3 3 -2 1 2 2 3 -1 0 3</div><div class="test-example-line test-example-line-even test-example-line-8">2 -2 -1</div><div class="test-example-line test-example-line-even test-example-line-8">-2 -1</div><div class="test-example-line test-example-line-odd test-example-line-9">2 -2 -1</div><div class="test-example-line test-example-line-odd test-example-line-9">-1 -2</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id005420656939604513" id="id001975250308368537" class="input-output-copier">Copy</div></div><pre id="id005420656939604513">1
+0
+2
+0
+2
+7
+8
+0
+0
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, the suitable subsegment is $$$l = 1$$$, $$$r = 1$$$.</p><p>In the third test case, the suitable subsegments are $$$l = 1$$$, $$$r = 1$$$ and $$$l = 3$$$, $$$r = 3$$$. </p><p>In the fifth test case, the suitable subsegments are $$$l = 1$$$, $$$r = 3$$$ and $$$l = 6$$$, $$$r = 8$$$.</p><p>In the sixth test case, the suitable subsegments are those for which $$$r = l + 2$$$. </p><p>In the seventh test case, the following subsegments are suitable: </p><ul><li> $$$l = 1$$$, $$$r = 7$$$.</li><li> $$$l = 2$$$, $$$r = 7$$$.</li><li> $$$l = 3$$$, $$$r = 6$$$.</li><li> $$$l = 4$$$, $$$r = 8$$$.</li><li> $$$l = 7$$$, $$$r = 11$$$.</li><li> $$$l = 7$$$, $$$r = 12$$$.</li><li> $$$l = 8$$$, $$$r = 10$$$.</li><li> $$$l = 9$$$, $$$r = 13$$$.</li></ul></div>
