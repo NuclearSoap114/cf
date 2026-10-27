@@ -1,39 +1,32 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define int long long 
-int q,x,y;
+#define int long long
+int op,x,y,n;
+ 
+struct q{
+    int op,x,y;
+};
  
 void O_o(){
-    cin >> q;
-    int p = 0;
-    unordered_map<int,vector<int>> mp;
- 
-    for(int i = 1;i <= q;i++){
-        int op;cin >> op;
-        if(op == 1){
-            cin >> x;
-            mp[x].push_back(++p);
+    cin >> n;
+    vector<q> a(n + 1);
+    for(int i = 1;i <= n;i++){
+        cin >> op >> x;
+        if(op - 1)cin >> y;
+        a[i] = {op,x,y};
+    }
+    vector<int> ans,f(5e5 + 10,0);
+    iota(f.begin() + 1,f.begin() + 5e5 + 1,1);
+    for(int i = n;i >= 1;i--){
+        if(a[i].op == 1){
+            ans.push_back(f[a[i].x]);
         }else{
-            cin >> x >> y;
-            if(x != y){
-                if(mp[x].size() > mp[y].size())mp[x].swap(mp[y]);
-                for(int &num : mp[x])mp[y].push_back(num);
-                mp[x].clear();
-            }
+            f[a[i].x] = f[a[i].y];
         }
     }
-    vector<int> a(p + 1);
-    for(auto &it : mp){
-        int xx = it.first;
-        for(auto &x : it.second){
-            a[x] = xx;
-        }
+    for(int i = ans.size() - 1;i >= 0;i--){
+        cout << ans[i] << ' ';
     }
- 
-    for(int i = 1;i <= p;i++){
-        cout << a[i] << ' ';
-    }
- 
     cout << '
 ';
 }
