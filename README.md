@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 347 | 31 |
+| 348 | 31 |
 
 ---
 
@@ -15,24 +15,24 @@
 - [*special](#special) (1)
 - [Uncategorized](#uncategorized) (21)
 - [binary search](#binary-search) (42)
-- [bitmasks](#bitmasks) (17)
+- [bitmasks](#bitmasks) (18)
 - [brute force](#brute-force) (66)
 - [combinatorics](#combinatorics) (13)
 - [constructive algorithms](#constructive-algorithms) (62)
 - [data structures](#data-structures) (45)
-- [dfs and similar](#dfs-and-similar) (15)
+- [dfs and similar](#dfs-and-similar) (16)
 - [divide and conquer](#divide-and-conquer) (4)
-- [dp](#dp) (52)
+- [dp](#dp) (53)
 - [dsu](#dsu) (10)
 - [expression parsing](#expression-parsing) (1)
 - [fft](#fft) (1)
 - [games](#games) (8)
 - [geometry](#geometry) (8)
 - [graph matchings](#graph-matchings) (1)
-- [graphs](#graphs) (15)
+- [graphs](#graphs) (16)
 - [greedy](#greedy) (157)
-- [hashing](#hashing) (2)
-- [implementation](#implementation) (94)
+- [hashing](#hashing) (3)
+- [implementation](#implementation) (95)
 - [interactive](#interactive) (1)
 - [math](#math) (125)
 - [number theory](#number-theory) (26)
@@ -40,7 +40,7 @@
 - [schedules](#schedules) (2)
 - [shortest paths](#shortest-paths) (7)
 - [sortings](#sortings) (45)
-- [strings](#strings) (32)
+- [strings](#strings) (33)
 - [trees](#trees) (14)
 - [two pointers](#two-pointers) (25)
 
@@ -131,6 +131,7 @@
 |---|---------|------------|----------|
 | 451E | [Devu and Flowers](https://codeforces.com/contest/451/problem/E) | 2300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/451/E%20-%20Devu%20and%20Flowers/solution.cpp) |
 | 1950F | [0, 1, 2, Tree!](https://codeforces.com/contest/1950/problem/F) | 1700 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/F%20-%200%2C%201%2C%202%2C%20Tree!/solution.cpp) |
+| 1950G | [Shuffling Songs](https://codeforces.com/contest/1950/problem/G) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/G%20-%20Shuffling%20Songs/solution.cpp) |
 | 2074C | [XOR and Triangle](https://codeforces.com/contest/2074/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2074/C%20-%20XOR%20and%20Triangle/solution.cpp) |
 | 2075D | [Equalization](https://codeforces.com/contest/2075/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2075/D%20-%20Equalization/solution.cpp) |
 | 2118C | [Make It Beautiful](https://codeforces.com/contest/2118/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2118/C%20-%20Make%20It%20Beautiful/solution.cpp) |
@@ -363,6 +364,7 @@
 | 540C | [Ice Cave](https://codeforces.com/contest/540/problem/C) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/540/C%20-%20Ice%20Cave/solution.cpp) |
 | 1294F | [Three Paths on a Tree](https://codeforces.com/contest/1294/problem/F) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1294/F%20-%20Three%20Paths%20on%20a%20Tree/solution.cpp) |
 | 1388D | [Captain Flint and Treasure](https://codeforces.com/contest/1388/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1388/D%20-%20Captain%20Flint%20and%20Treasure/solution.cpp) |
+| 1950G | [Shuffling Songs](https://codeforces.com/contest/1950/problem/G) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/G%20-%20Shuffling%20Songs/solution.cpp) |
 | 1971F | [Circle Perimeter](https://codeforces.com/contest/1971/problem/F) | 1600 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1971/F%20-%20Circle%20Perimeter/solution.cpp) |
 | 2070D | [Tree Jumps](https://codeforces.com/contest/2070/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2070/D%20-%20Tree%20Jumps/solution.cpp) |
 | 2086C | [Disappearing Permutation](https://codeforces.com/contest/2086/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2086/C%20-%20Disappearing%20Permutation/solution.cpp) |
@@ -400,6 +402,7 @@
 | 1526C1 | [Potions (Easy Version)](https://codeforces.com/contest/1526/problem/C1) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1526/C1%20-%20Potions%20(Easy%20Version)/solution.cpp) |
 | 1935C | [Messenger in MAC](https://codeforces.com/contest/1935/problem/C) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1935/C%20-%20Messenger%20in%20MAC/solution.cpp) |
 | 1950D | [Product of Binary Decimals](https://codeforces.com/contest/1950/problem/D) | 1100 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/D%20-%20Product%20of%20Binary%20Decimals/solution.cpp) |
+| 1950G | [Shuffling Songs](https://codeforces.com/contest/1950/problem/G) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/G%20-%20Shuffling%20Songs/solution.cpp) |
 | 1954D | [Colored Balls](https://codeforces.com/contest/1954/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1954/D%20-%20Colored%20Balls/solution.cpp) |
 | 1971D | [Binary Cut](https://codeforces.com/contest/1971/problem/D) | 1100 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1971/D%20-%20Binary%20Cut/solution.cpp) |
 | 1974E | [Money Buys Happiness](https://codeforces.com/contest/1974/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1974/E%20-%20Money%20Buys%20Happiness/solution.cpp) |
@@ -508,6 +511,7 @@
 | 1245D | [Shichikuji and Power Grid](https://codeforces.com/contest/1245/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1245/D%20-%20Shichikuji%20and%20Power%20Grid/solution.cpp) |
 | 1388D | [Captain Flint and Treasure](https://codeforces.com/contest/1388/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1388/D%20-%20Captain%20Flint%20and%20Treasure/solution.cpp) |
 | 1517D | [Explorer Space](https://codeforces.com/contest/1517/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1517/D%20-%20Explorer%20Space/solution.cpp) |
+| 1950G | [Shuffling Songs](https://codeforces.com/contest/1950/problem/G) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/G%20-%20Shuffling%20Songs/solution.cpp) |
 | 2059D | [Graph and Graph](https://codeforces.com/contest/2059/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2059/D%20-%20Graph%20and%20Graph/solution.cpp) |
 | 2075D | [Equalization](https://codeforces.com/contest/2075/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2075/D%20-%20Equalization/solution.cpp) |
 | 2086C | [Disappearing Permutation](https://codeforces.com/contest/2086/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2086/C%20-%20Disappearing%20Permutation/solution.cpp) |
@@ -684,6 +688,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1950G | [Shuffling Songs](https://codeforces.com/contest/1950/problem/G) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/G%20-%20Shuffling%20Songs/solution.cpp) |
 | 2110D | [Fewer Batteries](https://codeforces.com/contest/2110/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2110/D%20-%20Fewer%20Batteries/solution.cpp) |
 | 2148A | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2148/A%20-%20Sublime%20Sequence/solution.cpp) |
 
@@ -714,6 +719,7 @@
 | 1950D | [Product of Binary Decimals](https://codeforces.com/contest/1950/problem/D) | 1100 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/D%20-%20Product%20of%20Binary%20Decimals/solution.cpp) |
 | 1950E | [Nearly Shortest Repeating Substring](https://codeforces.com/contest/1950/problem/E) | 1500 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/E%20-%20Nearly%20Shortest%20Repeating%20Substring/solution.cpp) |
 | 1950F | [0, 1, 2, Tree!](https://codeforces.com/contest/1950/problem/F) | 1700 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/F%20-%200%2C%201%2C%202%2C%20Tree!/solution.cpp) |
+| 1950G | [Shuffling Songs](https://codeforces.com/contest/1950/problem/G) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/G%20-%20Shuffling%20Songs/solution.cpp) |
 | 1954E | [Chain Reaction](https://codeforces.com/contest/1954/problem/E) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1954/E%20-%20Chain%20Reaction/solution.cpp) |
 | 1971A | [My First Sorting Problem](https://codeforces.com/contest/1971/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1971/A%20-%20My%20First%20Sorting%20Problem/solution.cpp) |
 | 1971B | [Different String](https://codeforces.com/contest/1971/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1971/B%20-%20Different%20String/solution.cpp) |
@@ -1039,6 +1045,7 @@
 | 1508A | [Binary Literature](https://codeforces.com/contest/1508/problem/A) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1508/A%20-%20Binary%20Literature/solution.cpp) |
 | 1829A | [Love Story](https://codeforces.com/contest/1829/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1829/A%20-%20Love%20Story/solution.cpp) |
 | 1950E | [Nearly Shortest Repeating Substring](https://codeforces.com/contest/1950/problem/E) | 1500 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/E%20-%20Nearly%20Shortest%20Repeating%20Substring/solution.cpp) |
+| 1950G | [Shuffling Songs](https://codeforces.com/contest/1950/problem/G) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/G%20-%20Shuffling%20Songs/solution.cpp) |
 | 1971B | [Different String](https://codeforces.com/contest/1971/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1971/B%20-%20Different%20String/solution.cpp) |
 | 1971D | [Binary Cut](https://codeforces.com/contest/1971/problem/D) | 1100 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1971/D%20-%20Binary%20Cut/solution.cpp) |
 | 2044B | [Normal Problem](https://codeforces.com/contest/2044/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2044/B%20-%20Normal%20Problem/solution.cpp) |
