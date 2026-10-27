@@ -23,7 +23,7 @@ void O_o(){
         }
     }
     vector<int> a(p + 1);
-    for(auto it : mp){
+    for(auto &it : mp){
         int xx = it.first;
         for(auto &x : it.second){
             a[x] = xx;
