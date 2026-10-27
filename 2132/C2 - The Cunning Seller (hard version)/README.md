@@ -1,0 +1,25 @@
+<h2><a href="https://codeforces.com/contest/2132/problem/C2" target="_blank" rel="noopener noreferrer">2132C2 — The Cunning Seller (hard version)</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1400 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 2132C2](https://codeforces.com/contest/2132/problem/C2) |
+
+## Topics
+`binary search` `greedy` `math`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">C2. The Cunning Seller (hard version)</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p><span class="tex-font-style-it">This is the hard version of the problem. The easy version differs from the hard one in that it requires determining the minimum cost with the least number of deals, while the hard version requires determining the minimum cost with a limited number of deals.</span></p><p>After the cunning seller sold three watermelons instead of one, he decided to increase his profit — namely, he bought even more watermelons. Now he can sell $$$3^x$$$ watermelons for $$$3^{x+1} + x \cdot 3^{x-1}$$$ coins, where $$$x$$$ is a non-negative integer. Such a sale is called a deal.</p><p>A calculating buyer came to him, but he has little time, so the buyer can make no more than $$$k$$$ deals and plans to buy exactly $$$n$$$ watermelons.</p><p>The buyer is in a hurry and has therefore turned to you to determine the minimum number of coins he must pay the seller for $$$n$$$ watermelons if he makes no more than $$$k$$$ deals. If it is impossible to buy exactly $$$n$$$ watermelons while making no more than $$$k$$$ deals, output $$$-1$$$.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains an integer $$$t$$$ $$$(1 \le t \le 10^4)$$$ — the number of test cases. The description of each test case follows.</p><p>In a single line of each test case, there are two integers $$$n$$$ and $$$k$$$ $$$(1 \le n, k \le 10^9)$$$ — how many watermelons need to be bought and how many deals can be made.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output a single integer — the minimum cost of the watermelons or $$$-1$$$ if it is impossible to buy the watermelons while meeting all the conditions.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id009557159573372263" id="id009010353518500543" class="input-output-copier">Copy</div></div><pre id="id009557159573372263"><div class="test-example-line test-example-line-even test-example-line-0">8</div><div class="test-example-line test-example-line-odd test-example-line-1">1 1</div><div class="test-example-line test-example-line-even test-example-line-2">3 3</div><div class="test-example-line test-example-line-odd test-example-line-3">8 3</div><div class="test-example-line test-example-line-even test-example-line-4">2 4</div><div class="test-example-line test-example-line-odd test-example-line-5">10 10</div><div class="test-example-line test-example-line-even test-example-line-6">20 14</div><div class="test-example-line test-example-line-odd test-example-line-7">3 2</div><div class="test-example-line test-example-line-even test-example-line-8">9 1</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id004978696941411681" id="id0023600325571120895" class="input-output-copier">Copy</div></div><pre id="id004978696941411681">3
+9
+-1
+6
+30
+63
+10
+33
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>Note that there is no point in buying more watermelons than needed, so we will not consider deals where there are more watermelons than necessary.</p><p>Let's consider the costs of the first two deal options:</p><p>Deal A: $$$1$$$ watermelon — $$$3$$$ coins.</p><p>Deal B: $$$3$$$ watermelons — $$$10$$$ coins.</p><p>In the first sample, the only way to buy $$$1$$$ watermelon is to use Deal A, so the answer is $$$3$$$.</p><p>In the second sample, you can buy $$$3$$$ watermelons either with Deal B for $$$10$$$ coins or with three Deal A for $$$9$$$ coins, so the answer is $$$9$$$.</p><p>In the third sample, there are the following options for $$$3$$$ deals:</p><p>$$$3$$$ Deals A — $$$3$$$ watermelons.</p><p>$$$2$$$ Deals A and $$$1$$$ Deal B — $$$5$$$ watermelons.</p><p>$$$1$$$ Deal A and $$$2$$$ Deals B — $$$7$$$ watermelons.</p><p>$$$3$$$ Deals B — $$$9$$$ watermelons.</p><p>It can be seen that it is impossible to buy <span class="tex-font-style-bf">exactly</span> 8 watermelons.</p></div>
