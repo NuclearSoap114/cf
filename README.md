@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 229 | 31 |
+| 244 | 31 |
 
 ---
 
@@ -14,35 +14,35 @@
 
 - [*special](#special) (1)
 - [Uncategorized](#uncategorized) (17)
-- [binary search](#binary-search) (24)
-- [bitmasks](#bitmasks) (9)
-- [brute force](#brute-force) (50)
+- [binary search](#binary-search) (28)
+- [bitmasks](#bitmasks) (12)
+- [brute force](#brute-force) (53)
 - [combinatorics](#combinatorics) (11)
-- [constructive algorithms](#constructive-algorithms) (34)
-- [data structures](#data-structures) (27)
-- [dfs and similar](#dfs-and-similar) (10)
+- [constructive algorithms](#constructive-algorithms) (36)
+- [data structures](#data-structures) (30)
+- [dfs and similar](#dfs-and-similar) (11)
 - [divide and conquer](#divide-and-conquer) (4)
-- [dp](#dp) (35)
-- [dsu](#dsu) (6)
+- [dp](#dp) (38)
+- [dsu](#dsu) (8)
 - [expression parsing](#expression-parsing) (1)
 - [fft](#fft) (1)
-- [games](#games) (5)
+- [games](#games) (7)
 - [geometry](#geometry) (6)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (11)
-- [greedy](#greedy) (97)
+- [greedy](#greedy) (109)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (62)
+- [implementation](#implementation) (66)
 - [interactive](#interactive) (1)
-- [math](#math) (83)
-- [number theory](#number-theory) (20)
+- [math](#math) (90)
+- [number theory](#number-theory) (21)
 - [probabilities](#probabilities) (2)
 - [schedules](#schedules) (1)
 - [shortest paths](#shortest-paths) (4)
 - [sortings](#sortings) (25)
 - [strings](#strings) (22)
-- [trees](#trees) (9)
-- [two pointers](#two-pointers) (14)
+- [trees](#trees) (12)
+- [two pointers](#two-pointers) (15)
 
 ---
 
@@ -92,12 +92,16 @@
 | 2104E | [Unpleasant Strings](https://codeforces.com/contest/2104/problem/E) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2104/E%20-%20Unpleasant%20Strings/solution.cpp) |
 | 2110D | [Fewer Batteries](https://codeforces.com/contest/2110/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2110/D%20-%20Fewer%20Batteries/solution.cpp) |
 | 2114A | [Square Year](https://codeforces.com/contest/2114/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2114/A%20-%20Square%20Year/solution.cpp) |
+| 2117D | [Retaliation](https://codeforces.com/contest/2117/problem/D) | 1200 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2117/D%20-%20Retaliation/solution.cpp) |
 | 2132C2 | [The Cunning Seller (hard version)](https://codeforces.com/contest/2132/problem/C2) | 1400 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2132/C2%20-%20The%20Cunning%20Seller%20(hard%20version)/solution.cpp) |
 | 2145C | [Monocarp's String](https://codeforces.com/contest/2145/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2145/C%20-%20Monocarp's%20String/solution.cpp) |
 | 2148E | [Split](https://codeforces.com/contest/2148/problem/E) | 1200 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2148/E%20-%20Split/solution.cpp) |
 | 2156B | [Strange Machine](https://codeforces.com/contest/2156/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2156/B%20-%20Strange%20Machine/solution.cpp) |
 | 2167E | [khba Loves to Sleep!](https://codeforces.com/contest/2167/problem/E) | 1600 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2167/E%20-%20khba%20Loves%20to%20Sleep!/solution.cpp) |
 | 2169D1 | [Removal of a Sequence (Easy Version)](https://codeforces.com/contest/2169/problem/D1) | 1500 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2169/D1%20-%20Removal%20of%20a%20Sequence%20(Easy%20Version)/solution.cpp) |
+| 2170C | [Quotient and Remainder](https://codeforces.com/contest/2170/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2170/C%20-%20Quotient%20and%20Remainder/solution.cpp) |
+| 2171D | [Rae Taylor and Trees (easy version)](https://codeforces.com/contest/2171/problem/D) | 1400 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2171/D%20-%20Rae%20Taylor%20and%20Trees%20(easy%20version)/solution.cpp) |
+| 2171F | [Rae Taylor and Trees (hard version)](https://codeforces.com/contest/2171/problem/F) | 1600 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2171/F%20-%20Rae%20Taylor%20and%20Trees%20(hard%20version)/solution.cpp) |
 | 2203C | [Test Generator](https://codeforces.com/contest/2203/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2203/C%20-%20Test%20Generator/solution.cpp) |
 | 2228C1 | [Cirno and Number (Easy Version)](https://codeforces.com/contest/2228/problem/C1) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2228/C1%20-%20Cirno%20and%20Number%20(Easy%20Version)/solution.cpp) |
 | 2237C | [Duck Surplus](https://codeforces.com/contest/2237/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2237/C%20-%20Duck%20Surplus/solution.cpp) |
@@ -114,6 +118,9 @@
 | 2118C | [Make It Beautiful](https://codeforces.com/contest/2118/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2118/C%20-%20Make%20It%20Beautiful/solution.cpp) |
 | 2125C | [Count Good Numbers](https://codeforces.com/contest/2125/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2125/C%20-%20Count%20Good%20Numbers/solution.cpp) |
 | 2162C | [Beautiful XOR](https://codeforces.com/contest/2162/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2162/C%20-%20Beautiful%20XOR/solution.cpp) |
+| 2170A | [Maximum Neighborhood](https://codeforces.com/contest/2170/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2170/A%20-%20Maximum%20Neighborhood/solution.cpp) |
+| 2171C1 | [Renako Amaori and XOR Game (easy version)](https://codeforces.com/contest/2171/problem/C1) | 1100 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2171/C1%20-%20Renako%20Amaori%20and%20XOR%20Game%20(easy%20version)/solution.cpp) |
+| 2171C2 | [Renako Amaori and XOR Game (hard version)](https://codeforces.com/contest/2171/problem/C2) | 1400 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2171/C2%20-%20Renako%20Amaori%20and%20XOR%20Game%20(hard%20version)/solution.cpp) |
 | 2203B | [Beautiful Numbers](https://codeforces.com/contest/2203/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2203/B%20-%20Beautiful%20Numbers/solution.cpp) |
 | 2203C | [Test Generator](https://codeforces.com/contest/2203/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2203/C%20-%20Test%20Generator/solution.cpp) |
 
@@ -145,6 +152,7 @@
 | 2086B | [Large Array and Segments](https://codeforces.com/contest/2086/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2086/B%20-%20Large%20Array%20and%20Segments/solution.cpp) |
 | 2106A | [Dr. TC](https://codeforces.com/contest/2106/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2106/A%20-%20Dr.%20TC/solution.cpp) |
 | 2114A | [Square Year](https://codeforces.com/contest/2114/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2114/A%20-%20Square%20Year/solution.cpp) |
+| 2114D | [Come a Little Closer](https://codeforces.com/contest/2114/problem/D) | 1400 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2114/D%20-%20Come%20a%20Little%20Closer/solution.cpp) |
 | 2121A | [Letter Home](https://codeforces.com/contest/2121/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2121/A%20-%20Letter%20Home/solution.cpp) |
 | 2123C | [Prefix Min and Suffix Max](https://codeforces.com/contest/2123/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2123/C%20-%20Prefix%20Min%20and%20Suffix%20Max/solution.cpp) |
 | 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.cpp) |
@@ -164,6 +172,8 @@
 | 2163C | [Monopati](https://codeforces.com/contest/2163/problem/C) | 1500 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2163/C%20-%20Monopati/solution.cpp) |
 | 2166A | [Same Difference](https://codeforces.com/contest/2166/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2166/A%20-%20Same%20Difference/solution.cpp) |
 | 2167D | [Yet Another Array Problem](https://codeforces.com/contest/2167/problem/D) | 1000 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2167/D%20-%20Yet%20Another%20Array%20Problem/solution.cpp) |
+| 2170A | [Maximum Neighborhood](https://codeforces.com/contest/2170/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2170/A%20-%20Maximum%20Neighborhood/solution.cpp) |
+| 2171A | [Shizuku Hoshikawa and Farm Legs](https://codeforces.com/contest/2171/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2171/A%20-%20Shizuku%20Hoshikawa%20and%20Farm%20Legs/solution.cpp) |
 | 2196B | [Another Problem about Beautiful Pairs](https://codeforces.com/contest/2196/problem/B) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2196/B%20-%20Another%20Problem%20about%20Beautiful%20Pairs/solution.cpp) |
 | 2228C1 | [Cirno and Number (Easy Version)](https://codeforces.com/contest/2228/problem/C1) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2228/C1%20-%20Cirno%20and%20Number%20(Easy%20Version)/solution.cpp) |
 | 2237B | [Annoying the Ghost](https://codeforces.com/contest/2237/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2237/B%20-%20Annoying%20the%20Ghost/solution.cpp) |
@@ -218,10 +228,12 @@
 | 2148D | [Destruction of the Dandelion Fields](https://codeforces.com/contest/2148/problem/D) | 1000 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2148/D%20-%20Destruction%20of%20the%20Dandelion%20Fields/solution.cpp) |
 | 2155B | [Abraham's Great Escape](https://codeforces.com/contest/2155/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2155/B%20-%20Abraham's%20Great%20Escape/solution.cpp) |
 | 2156A | [Pizza Time](https://codeforces.com/contest/2156/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2156/A%20-%20Pizza%20Time/solution.cpp) |
+| 2158A | [Suspension](https://codeforces.com/contest/2158/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2158/A%20-%20Suspension/solution.cpp) |
 | 2162B | [Beautiful String](https://codeforces.com/contest/2162/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2162/B%20-%20Beautiful%20String/solution.cpp) |
 | 2162C | [Beautiful XOR](https://codeforces.com/contest/2162/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2162/C%20-%20Beautiful%20XOR/solution.cpp) |
 | 2163B | [Siga ta Kymata](https://codeforces.com/contest/2163/problem/B) | 1700 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2163/B%20-%20Siga%20ta%20Kymata/solution.cpp) |
 | 2167C | [Isamatdin and His Magic Wand!](https://codeforces.com/contest/2167/problem/C) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2167/C%20-%20Isamatdin%20and%20His%20Magic%20Wand!/solution.cpp) |
+| 2171F | [Rae Taylor and Trees (hard version)](https://codeforces.com/contest/2171/problem/F) | 1600 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2171/F%20-%20Rae%20Taylor%20and%20Trees%20(hard%20version)/solution.cpp) |
 | 2237D | [Fullmetal Bitchemist](https://codeforces.com/contest/2237/problem/D) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2237/D%20-%20Fullmetal%20Bitchemist/solution.cpp) |
 | 2246A | [farmpiggie and Subset Sum](https://codeforces.com/contest/2246/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2246/A%20-%20farmpiggie%20and%20Subset%20Sum/solution.cpp) |
 | 2246B | [ezraft and Array](https://codeforces.com/contest/2246/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2246/B%20-%20ezraft%20and%20Array/solution.cpp) |
@@ -242,6 +254,7 @@
 | 1954E | [Chain Reaction](https://codeforces.com/contest/1954/problem/E) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1954/E%20-%20Chain%20Reaction/solution.cpp) |
 | 2037D | [Sharky Surfing](https://codeforces.com/contest/2037/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2037/D%20-%20Sharky%20Surfing/solution.cpp) |
 | 2059D | [Graph and Graph](https://codeforces.com/contest/2059/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2059/D%20-%20Graph%20and%20Graph/solution.cpp) |
+| 2117C | [Cool Partition](https://codeforces.com/contest/2117/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2117/C%20-%20Cool%20Partition/solution.cpp) |
 | 2118C | [Make It Beautiful](https://codeforces.com/contest/2118/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2118/C%20-%20Make%20It%20Beautiful/solution.cpp) |
 | 2123C | [Prefix Min and Suffix Max](https://codeforces.com/contest/2123/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2123/C%20-%20Prefix%20Min%20and%20Suffix%20Max/solution.cpp) |
 | 2126D | [This Is the Last Time](https://codeforces.com/contest/2126/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2126/D%20-%20This%20Is%20the%20Last%20Time/solution.cpp) |
@@ -252,6 +265,8 @@
 | 2152C | [Triple Removal](https://codeforces.com/contest/2152/problem/C) | 1400 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2152/C%20-%20Triple%20Removal/solution.cpp) |
 | 2167E | [khba Loves to Sleep!](https://codeforces.com/contest/2167/problem/E) | 1600 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2167/E%20-%20khba%20Loves%20to%20Sleep!/solution.cpp) |
 | 2167G | [Mukhammadali and the Smooth Array](https://codeforces.com/contest/2167/problem/G) | 1600 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2167/G%20-%20Mukhammadali%20and%20the%20Smooth%20Array/solution.cpp) |
+| 2171D | [Rae Taylor and Trees (easy version)](https://codeforces.com/contest/2171/problem/D) | 1400 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2171/D%20-%20Rae%20Taylor%20and%20Trees%20(easy%20version)/solution.cpp) |
+| 2171F | [Rae Taylor and Trees (hard version)](https://codeforces.com/contest/2171/problem/F) | 1600 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2171/F%20-%20Rae%20Taylor%20and%20Trees%20(hard%20version)/solution.cpp) |
 | 2176D | [Fibonacci Paths](https://codeforces.com/contest/2176/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2176/D%20-%20Fibonacci%20Paths/solution.cpp) |
 | 2205D | [Simons and Beating Peaks](https://codeforces.com/contest/2205/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2205/D%20-%20Simons%20and%20Beating%20Peaks/solution.cpp) |
 | 2242B | [Predominant Frequency Division](https://codeforces.com/contest/2242/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2242/B%20-%20Predominant%20Frequency%20Division/solution.cpp) |
@@ -271,6 +286,7 @@
 | 2070D | [Tree Jumps](https://codeforces.com/contest/2070/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2070/D%20-%20Tree%20Jumps/solution.cpp) |
 | 2086C | [Disappearing Permutation](https://codeforces.com/contest/2086/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2086/C%20-%20Disappearing%20Permutation/solution.cpp) |
 | 2110D | [Fewer Batteries](https://codeforces.com/contest/2110/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2110/D%20-%20Fewer%20Batteries/solution.cpp) |
+| 2114E | [Kirei Attacks the Estate](https://codeforces.com/contest/2114/problem/E) | 1400 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2114/E%20-%20Kirei%20Attacks%20the%20Estate/solution.cpp) |
 | 2145D | [Inversion Value of a Permutation](https://codeforces.com/contest/2145/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2145/D%20-%20Inversion%20Value%20of%20a%20Permutation/solution.cpp) |
 | 2167F | [Tree, TREE!!!](https://codeforces.com/contest/2167/problem/F) | 1600 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2167/F%20-%20Tree%2C%20TREE!!!/solution.cpp) |
 
@@ -308,6 +324,7 @@
 | 2104E | [Unpleasant Strings](https://codeforces.com/contest/2104/problem/E) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2104/E%20-%20Unpleasant%20Strings/solution.cpp) |
 | 2110D | [Fewer Batteries](https://codeforces.com/contest/2110/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2110/D%20-%20Fewer%20Batteries/solution.cpp) |
 | 2114C | [Need More Arrays](https://codeforces.com/contest/2114/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2114/C%20-%20Need%20More%20Arrays/solution.cpp) |
+| 2114E | [Kirei Attacks the Estate](https://codeforces.com/contest/2114/problem/E) | 1400 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2114/E%20-%20Kirei%20Attacks%20the%20Estate/solution.cpp) |
 | 2126B | [No Casino in the Mountains](https://codeforces.com/contest/2126/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2126/B%20-%20No%20Casino%20in%20the%20Mountains/solution.cpp) |
 | 2128D | [Sum of LDS](https://codeforces.com/contest/2128/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2128/D%20-%20Sum%20of%20LDS/solution.cpp) |
 | 2145D | [Inversion Value of a Permutation](https://codeforces.com/contest/2145/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2145/D%20-%20Inversion%20Value%20of%20a%20Permutation/solution.cpp) |
@@ -315,6 +332,8 @@
 | 2167F | [Tree, TREE!!!](https://codeforces.com/contest/2167/problem/F) | 1600 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2167/F%20-%20Tree%2C%20TREE!!!/solution.cpp) |
 | 2167G | [Mukhammadali and the Smooth Array](https://codeforces.com/contest/2167/problem/G) | 1600 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2167/G%20-%20Mukhammadali%20and%20the%20Smooth%20Array/solution.cpp) |
 | 2169C | [Range Operation](https://codeforces.com/contest/2169/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2169/C%20-%20Range%20Operation/solution.cpp) |
+| 2171D | [Rae Taylor and Trees (easy version)](https://codeforces.com/contest/2171/problem/D) | 1400 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2171/D%20-%20Rae%20Taylor%20and%20Trees%20(easy%20version)/solution.cpp) |
+| 2171F | [Rae Taylor and Trees (hard version)](https://codeforces.com/contest/2171/problem/F) | 1600 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2171/F%20-%20Rae%20Taylor%20and%20Trees%20(hard%20version)/solution.cpp) |
 | 2176D | [Fibonacci Paths](https://codeforces.com/contest/2176/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2176/D%20-%20Fibonacci%20Paths/solution.cpp) |
 | 2203B | [Beautiful Numbers](https://codeforces.com/contest/2203/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2203/B%20-%20Beautiful%20Numbers/solution.cpp) |
 | 2205D | [Simons and Beating Peaks](https://codeforces.com/contest/2205/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2205/D%20-%20Simons%20and%20Beating%20Peaks/solution.cpp) |
@@ -333,6 +352,8 @@
 | 1922D | [Berserk Monsters](https://codeforces.com/contest/1922/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1922/D%20-%20Berserk%20Monsters/solution.cpp) |
 | 1954E | [Chain Reaction](https://codeforces.com/contest/1954/problem/E) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1954/E%20-%20Chain%20Reaction/solution.cpp) |
 | 2086C | [Disappearing Permutation](https://codeforces.com/contest/2086/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2086/C%20-%20Disappearing%20Permutation/solution.cpp) |
+| 2171D | [Rae Taylor and Trees (easy version)](https://codeforces.com/contest/2171/problem/D) | 1400 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2171/D%20-%20Rae%20Taylor%20and%20Trees%20(easy%20version)/solution.cpp) |
+| 2171F | [Rae Taylor and Trees (hard version)](https://codeforces.com/contest/2171/problem/F) | 1600 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2171/F%20-%20Rae%20Taylor%20and%20Trees%20(hard%20version)/solution.cpp) |
 
 ### expression parsing
 
@@ -353,6 +374,8 @@
 | 2060C | [Game of Mathletes](https://codeforces.com/contest/2060/problem/C) | 900 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2060/C%20-%20Game%20of%20Mathletes/solution.cpp) |
 | 2123D | [Binary String Battle](https://codeforces.com/contest/2123/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2123/D%20-%20Binary%20String%20Battle/solution.cpp) |
 | 2152B | [Catching the Krug](https://codeforces.com/contest/2152/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2152/B%20-%20Catching%20the%20Krug/solution.cpp) |
+| 2171C1 | [Renako Amaori and XOR Game (easy version)](https://codeforces.com/contest/2171/problem/C1) | 1100 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2171/C1%20-%20Renako%20Amaori%20and%20XOR%20Game%20(easy%20version)/solution.cpp) |
+| 2171C2 | [Renako Amaori and XOR Game (hard version)](https://codeforces.com/contest/2171/problem/C2) | 1400 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2171/C2%20-%20Renako%20Amaori%20and%20XOR%20Game%20(hard%20version)/solution.cpp) |
 | 2228B | [Remilia Plays Soku](https://codeforces.com/contest/2228/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2228/B%20-%20Remilia%20Plays%20Soku/solution.cpp) |
 | 2237A | [Destroying Towers](https://codeforces.com/contest/2237/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2237/A%20-%20Destroying%20Towers/solution.cpp) |
 
@@ -436,7 +459,10 @@
 | 2110D | [Fewer Batteries](https://codeforces.com/contest/2110/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2110/D%20-%20Fewer%20Batteries/solution.cpp) |
 | 2114B | [Not Quite a Palindromic String](https://codeforces.com/contest/2114/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2114/B%20-%20Not%20Quite%20a%20Palindromic%20String/solution.cpp) |
 | 2114C | [Need More Arrays](https://codeforces.com/contest/2114/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2114/C%20-%20Need%20More%20Arrays/solution.cpp) |
+| 2114D | [Come a Little Closer](https://codeforces.com/contest/2114/problem/D) | 1400 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2114/D%20-%20Come%20a%20Little%20Closer/solution.cpp) |
+| 2114E | [Kirei Attacks the Estate](https://codeforces.com/contest/2114/problem/E) | 1400 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2114/E%20-%20Kirei%20Attacks%20the%20Estate/solution.cpp) |
 | 2117A | [False Alarm](https://codeforces.com/contest/2117/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2117/A%20-%20False%20Alarm/solution.cpp) |
+| 2117C | [Cool Partition](https://codeforces.com/contest/2117/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2117/C%20-%20Cool%20Partition/solution.cpp) |
 | 2118C | [Make It Beautiful](https://codeforces.com/contest/2118/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2118/C%20-%20Make%20It%20Beautiful/solution.cpp) |
 | 2121B | [Above the Clouds](https://codeforces.com/contest/2121/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2121/B%20-%20Above%20the%20Clouds/solution.cpp) |
 | 2121C | [Those Who Are With Us](https://codeforces.com/contest/2121/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2121/C%20-%20Those%20Who%20Are%20With%20Us/solution.cpp) |
@@ -453,6 +479,7 @@
 | 2131E | [Adjacent XOR](https://codeforces.com/contest/2131/problem/E) | 1400 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2131/E%20-%20Adjacent%20XOR/solution.cpp) |
 | 2132C1 | [The Cunning Seller (easy version)](https://codeforces.com/contest/2132/problem/C1) | 1000 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2132/C1%20-%20The%20Cunning%20Seller%20(easy%20version)/solution.cpp) |
 | 2132C2 | [The Cunning Seller (hard version)](https://codeforces.com/contest/2132/problem/C2) | 1400 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2132/C2%20-%20The%20Cunning%20Seller%20(hard%20version)/solution.cpp) |
+| 2133B | [Villagers](https://codeforces.com/contest/2133/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2133/B%20-%20Villagers/solution.cpp) |
 | 2134C | [Even Larger](https://codeforces.com/contest/2134/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2134/C%20-%20Even%20Larger/solution.cpp) |
 | 2137C | [Maximum Even Sum](https://codeforces.com/contest/2137/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2137/C%20-%20Maximum%20Even%20Sum/solution.cpp) |
 | 2140A | [Shift Sort](https://codeforces.com/contest/2140/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2140/A%20-%20Shift%20Sort/solution.cpp) |
@@ -469,6 +496,7 @@
 | 2156A | [Pizza Time](https://codeforces.com/contest/2156/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2156/A%20-%20Pizza%20Time/solution.cpp) |
 | 2156B | [Strange Machine](https://codeforces.com/contest/2156/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2156/B%20-%20Strange%20Machine/solution.cpp) |
 | 2156C | [Maximum GCD on Whiteboard](https://codeforces.com/contest/2156/problem/C) | 1400 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2156/C%20-%20Maximum%20GCD%20on%20Whiteboard/solution.cpp) |
+| 2158A | [Suspension](https://codeforces.com/contest/2158/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2158/A%20-%20Suspension/solution.cpp) |
 | 2162A | [Beautiful Average](https://codeforces.com/contest/2162/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2162/A%20-%20Beautiful%20Average/solution.cpp) |
 | 2162C | [Beautiful XOR](https://codeforces.com/contest/2162/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2162/C%20-%20Beautiful%20XOR/solution.cpp) |
 | 2163A | [Souvlaki VS. Kalamaki](https://codeforces.com/contest/2163/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2163/A%20-%20Souvlaki%20VS.%20Kalamaki/solution.cpp) |
@@ -477,6 +505,13 @@
 | 2167C | [Isamatdin and His Magic Wand!](https://codeforces.com/contest/2167/problem/C) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2167/C%20-%20Isamatdin%20and%20His%20Magic%20Wand!/solution.cpp) |
 | 2167E | [khba Loves to Sleep!](https://codeforces.com/contest/2167/problem/E) | 1600 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2167/E%20-%20khba%20Loves%20to%20Sleep!/solution.cpp) |
 | 2169C | [Range Operation](https://codeforces.com/contest/2169/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2169/C%20-%20Range%20Operation/solution.cpp) |
+| 2170A | [Maximum Neighborhood](https://codeforces.com/contest/2170/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2170/A%20-%20Maximum%20Neighborhood/solution.cpp) |
+| 2170B | [Addition on a Segment](https://codeforces.com/contest/2170/problem/B) | 1200 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2170/B%20-%20Addition%20on%20a%20Segment/solution.cpp) |
+| 2170C | [Quotient and Remainder](https://codeforces.com/contest/2170/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2170/C%20-%20Quotient%20and%20Remainder/solution.cpp) |
+| 2171C1 | [Renako Amaori and XOR Game (easy version)](https://codeforces.com/contest/2171/problem/C1) | 1100 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2171/C1%20-%20Renako%20Amaori%20and%20XOR%20Game%20(easy%20version)/solution.cpp) |
+| 2171C2 | [Renako Amaori and XOR Game (hard version)](https://codeforces.com/contest/2171/problem/C2) | 1400 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2171/C2%20-%20Renako%20Amaori%20and%20XOR%20Game%20(hard%20version)/solution.cpp) |
+| 2171D | [Rae Taylor and Trees (easy version)](https://codeforces.com/contest/2171/problem/D) | 1400 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2171/D%20-%20Rae%20Taylor%20and%20Trees%20(easy%20version)/solution.cpp) |
+| 2171F | [Rae Taylor and Trees (hard version)](https://codeforces.com/contest/2171/problem/F) | 1600 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2171/F%20-%20Rae%20Taylor%20and%20Trees%20(hard%20version)/solution.cpp) |
 | 2203B | [Beautiful Numbers](https://codeforces.com/contest/2203/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2203/B%20-%20Beautiful%20Numbers/solution.cpp) |
 | 2203C | [Test Generator](https://codeforces.com/contest/2203/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2203/C%20-%20Test%20Generator/solution.cpp) |
 | 2205D | [Simons and Beating Peaks](https://codeforces.com/contest/2205/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2205/D%20-%20Simons%20and%20Beating%20Peaks/solution.cpp) |
@@ -536,6 +571,7 @@
 | 2074A | [Draw a Square](https://codeforces.com/contest/2074/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2074/A%20-%20Draw%20a%20Square/solution.cpp) |
 | 2086C | [Disappearing Permutation](https://codeforces.com/contest/2086/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2086/C%20-%20Disappearing%20Permutation/solution.cpp) |
 | 2103C | [Median Splits](https://codeforces.com/contest/2103/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2103/C%20-%20Median%20Splits/solution.cpp) |
+| 2114D | [Come a Little Closer](https://codeforces.com/contest/2114/problem/D) | 1400 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2114/D%20-%20Come%20a%20Little%20Closer/solution.cpp) |
 | 2117A | [False Alarm](https://codeforces.com/contest/2117/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2117/A%20-%20False%20Alarm/solution.cpp) |
 | 2121C | [Those Who Are With Us](https://codeforces.com/contest/2121/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2121/C%20-%20Those%20Who%20Are%20With%20Us/solution.cpp) |
 | 2121D | [1709](https://codeforces.com/contest/2121/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2121/D%20-%201709/solution.cpp) |
@@ -556,6 +592,9 @@
 | 2167D | [Yet Another Array Problem](https://codeforces.com/contest/2167/problem/D) | 1000 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2167/D%20-%20Yet%20Another%20Array%20Problem/solution.cpp) |
 | 2167E | [khba Loves to Sleep!](https://codeforces.com/contest/2167/problem/E) | 1600 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2167/E%20-%20khba%20Loves%20to%20Sleep!/solution.cpp) |
 | 2169D1 | [Removal of a Sequence (Easy Version)](https://codeforces.com/contest/2169/problem/D1) | 1500 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2169/D1%20-%20Removal%20of%20a%20Sequence%20(Easy%20Version)/solution.cpp) |
+| 2170A | [Maximum Neighborhood](https://codeforces.com/contest/2170/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2170/A%20-%20Maximum%20Neighborhood/solution.cpp) |
+| 2171D | [Rae Taylor and Trees (easy version)](https://codeforces.com/contest/2171/problem/D) | 1400 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2171/D%20-%20Rae%20Taylor%20and%20Trees%20(easy%20version)/solution.cpp) |
+| 2171F | [Rae Taylor and Trees (hard version)](https://codeforces.com/contest/2171/problem/F) | 1600 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2171/F%20-%20Rae%20Taylor%20and%20Trees%20(hard%20version)/solution.cpp) |
 | 2205D | [Simons and Beating Peaks](https://codeforces.com/contest/2205/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2205/D%20-%20Simons%20and%20Beating%20Peaks/solution.cpp) |
 | 2228A | [Marisa Steals Reimu's Takeout](https://codeforces.com/contest/2228/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2228/A%20-%20Marisa%20Steals%20Reimu's%20Takeout/solution.cpp) |
 | 2228B | [Remilia Plays Soku](https://codeforces.com/contest/2228/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2228/B%20-%20Remilia%20Plays%20Soku/solution.cpp) |
@@ -607,6 +646,8 @@
 | 2106C | [Cherry Bomb](https://codeforces.com/contest/2106/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2106/C%20-%20Cherry%20Bomb/solution.cpp) |
 | 2114A | [Square Year](https://codeforces.com/contest/2114/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2114/A%20-%20Square%20Year/solution.cpp) |
 | 2114B | [Not Quite a Palindromic String](https://codeforces.com/contest/2114/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2114/B%20-%20Not%20Quite%20a%20Palindromic%20String/solution.cpp) |
+| 2114D | [Come a Little Closer](https://codeforces.com/contest/2114/problem/D) | 1400 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2114/D%20-%20Come%20a%20Little%20Closer/solution.cpp) |
+| 2117D | [Retaliation](https://codeforces.com/contest/2117/problem/D) | 1200 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2117/D%20-%20Retaliation/solution.cpp) |
 | 2118C | [Make It Beautiful](https://codeforces.com/contest/2118/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2118/C%20-%20Make%20It%20Beautiful/solution.cpp) |
 | 2121A | [Letter Home](https://codeforces.com/contest/2121/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2121/A%20-%20Letter%20Home/solution.cpp) |
 | 2123A | [Blackboard Game](https://codeforces.com/contest/2123/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2123/A%20-%20Blackboard%20Game/solution.cpp) |
@@ -638,6 +679,7 @@
 | 2152C | [Triple Removal](https://codeforces.com/contest/2152/problem/C) | 1400 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2152/C%20-%20Triple%20Removal/solution.cpp) |
 | 2155A | [El fucho](https://codeforces.com/contest/2155/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2155/A%20-%20El%20fucho/solution.cpp) |
 | 2156C | [Maximum GCD on Whiteboard](https://codeforces.com/contest/2156/problem/C) | 1400 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2156/C%20-%20Maximum%20GCD%20on%20Whiteboard/solution.cpp) |
+| 2158A | [Suspension](https://codeforces.com/contest/2158/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2158/A%20-%20Suspension/solution.cpp) |
 | 2163A | [Souvlaki VS. Kalamaki](https://codeforces.com/contest/2163/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2163/A%20-%20Souvlaki%20VS.%20Kalamaki/solution.cpp) |
 | 2163B | [Siga ta Kymata](https://codeforces.com/contest/2163/problem/B) | 1700 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2163/B%20-%20Siga%20ta%20Kymata/solution.cpp) |
 | 2163C | [Monopati](https://codeforces.com/contest/2163/problem/C) | 1500 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2163/C%20-%20Monopati/solution.cpp) |
@@ -647,6 +689,10 @@
 | 2167F | [Tree, TREE!!!](https://codeforces.com/contest/2167/problem/F) | 1600 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2167/F%20-%20Tree%2C%20TREE!!!/solution.cpp) |
 | 2169C | [Range Operation](https://codeforces.com/contest/2169/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2169/C%20-%20Range%20Operation/solution.cpp) |
 | 2169D1 | [Removal of a Sequence (Easy Version)](https://codeforces.com/contest/2169/problem/D1) | 1500 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2169/D1%20-%20Removal%20of%20a%20Sequence%20(Easy%20Version)/solution.cpp) |
+| 2170A | [Maximum Neighborhood](https://codeforces.com/contest/2170/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2170/A%20-%20Maximum%20Neighborhood/solution.cpp) |
+| 2170B | [Addition on a Segment](https://codeforces.com/contest/2170/problem/B) | 1200 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2170/B%20-%20Addition%20on%20a%20Segment/solution.cpp) |
+| 2171A | [Shizuku Hoshikawa and Farm Legs](https://codeforces.com/contest/2171/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2171/A%20-%20Shizuku%20Hoshikawa%20and%20Farm%20Legs/solution.cpp) |
+| 2171B | [Yuu Koito and Minimum Absolute Sum](https://codeforces.com/contest/2171/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2171/B%20-%20Yuu%20Koito%20and%20Minimum%20Absolute%20Sum/solution.cpp) |
 | 2196B | [Another Problem about Beautiful Pairs](https://codeforces.com/contest/2196/problem/B) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2196/B%20-%20Another%20Problem%20about%20Beautiful%20Pairs/solution.cpp) |
 | 2203B | [Beautiful Numbers](https://codeforces.com/contest/2203/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2203/B%20-%20Beautiful%20Numbers/solution.cpp) |
 | 2203C | [Test Generator](https://codeforces.com/contest/2203/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2203/C%20-%20Test%20Generator/solution.cpp) |
@@ -670,6 +716,7 @@
 | 1954E | [Chain Reaction](https://codeforces.com/contest/1954/problem/E) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1954/E%20-%20Chain%20Reaction/solution.cpp) |
 | 2037C | [Superultra's Favorite Permutation](https://codeforces.com/contest/2037/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2037/C%20-%20Superultra's%20Favorite%20Permutation/solution.cpp) |
 | 2093C | [Simple Repetition](https://codeforces.com/contest/2093/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2093/C%20-%20Simple%20Repetition/solution.cpp) |
+| 2117D | [Retaliation](https://codeforces.com/contest/2117/problem/D) | 1200 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2117/D%20-%20Retaliation/solution.cpp) |
 | 2125B | [Left and Down](https://codeforces.com/contest/2125/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2125/B%20-%20Left%20and%20Down/solution.cpp) |
 | 2125C | [Count Good Numbers](https://codeforces.com/contest/2125/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2125/C%20-%20Count%20Good%20Numbers/solution.cpp) |
 | 2126E | [G-C-D, Unlucky!](https://codeforces.com/contest/2126/problem/E) | 1400 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2126/E%20-%20G-C-D%2C%20Unlucky!/solution.cpp) |
@@ -773,8 +820,11 @@
 | 1388D | [Captain Flint and Treasure](https://codeforces.com/contest/1388/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1388/D%20-%20Captain%20Flint%20and%20Treasure/solution.cpp) |
 | 1950F | [0, 1, 2, Tree!](https://codeforces.com/contest/1950/problem/F) | 1700 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/F%20-%200%2C%201%2C%202%2C%20Tree!/solution.cpp) |
 | 2070D | [Tree Jumps](https://codeforces.com/contest/2070/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2070/D%20-%20Tree%20Jumps/solution.cpp) |
+| 2114E | [Kirei Attacks the Estate](https://codeforces.com/contest/2114/problem/E) | 1400 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2114/E%20-%20Kirei%20Attacks%20the%20Estate/solution.cpp) |
 | 2131D | [Arboris Contractio](https://codeforces.com/contest/2131/problem/D) | 1400 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2131/D%20-%20Arboris%20Contractio/solution.cpp) |
 | 2167F | [Tree, TREE!!!](https://codeforces.com/contest/2167/problem/F) | 1600 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2167/F%20-%20Tree%2C%20TREE!!!/solution.cpp) |
+| 2171D | [Rae Taylor and Trees (easy version)](https://codeforces.com/contest/2171/problem/D) | 1400 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2171/D%20-%20Rae%20Taylor%20and%20Trees%20(easy%20version)/solution.cpp) |
+| 2171F | [Rae Taylor and Trees (hard version)](https://codeforces.com/contest/2171/problem/F) | 1600 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2171/F%20-%20Rae%20Taylor%20and%20Trees%20(hard%20version)/solution.cpp) |
 | 2205D | [Simons and Beating Peaks](https://codeforces.com/contest/2205/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2205/D%20-%20Simons%20and%20Beating%20Peaks/solution.cpp) |
 
 ### two pointers
@@ -792,6 +842,7 @@
 | 2149E | [Hidden Knowledge of the Ancients](https://codeforces.com/contest/2149/problem/E) | 1500 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2149/E%20-%20Hidden%20Knowledge%20of%20the%20Ancients/solution.cpp) |
 | 2163C | [Monopati](https://codeforces.com/contest/2163/problem/C) | 1500 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2163/C%20-%20Monopati/solution.cpp) |
 | 2169C | [Range Operation](https://codeforces.com/contest/2169/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2169/C%20-%20Range%20Operation/solution.cpp) |
+| 2170C | [Quotient and Remainder](https://codeforces.com/contest/2170/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/2170/C%20-%20Quotient%20and%20Remainder/solution.cpp) |
 | 2196B | [Another Problem about Beautiful Pairs](https://codeforces.com/contest/2196/problem/B) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2196/B%20-%20Another%20Problem%20about%20Beautiful%20Pairs/solution.cpp) |
 | 2242C | [Unstable Elements](https://codeforces.com/contest/2242/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2242/C%20-%20Unstable%20Elements/solution.cpp) |
 | 2253B | [Hypercarp and the Control Panel](https://codeforces.com/contest/2253/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2253/B%20-%20Hypercarp%20and%20the%20Control%20Panel/solution.cpp) |
