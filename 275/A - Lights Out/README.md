@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/275/problem/A" target="_blank" rel="noopener noreferrer">275A — Lights Out</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 900 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 275A](https://codeforces.com/contest/275/problem/A) |
+
+## Topics
+`implementation`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Lights Out</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard" style="font-weight: bold"><div class="property-title">input</div>stdin</div><div class="output-file output-standard" style="font-weight: bold"><div class="property-title">output</div>stdout</div></div><div><p>Lenny is playing a game on a <span class="tex-span">3 × 3</span> grid of lights. In the beginning of the game all lights are switched on. Pressing any of the lights will toggle it and all side-adjacent lights. The goal of the game is to switch all the lights off. We consider the toggling as follows: if the light was switched on then it will be switched off, if it was switched off then it will be switched on.</p><p>Lenny has spent some time playing with the grid and by now he has pressed each light a certain number of times. Given the number of times each light is pressed, you have to print the current state of each light.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The input consists of three rows. Each row contains three integers each between 0 to 100 inclusive. The <span class="tex-span"><i>j</i></span>-th number in the <span class="tex-span"><i>i</i></span>-th row is the number of times the <span class="tex-span"><i>j</i></span>-th light of the <span class="tex-span"><i>i</i></span>-th row of the grid is pressed.</p></div><div class="output-specification"><div class="section-title">Output</div><p>Print three lines, each containing three characters. The <span class="tex-span"><i>j</i></span>-th character of the <span class="tex-span"><i>i</i></span>-th line is "<span class="tex-font-style-tt">1</span>" if and only if the corresponding light is switched on, otherwise it's "<span class="tex-font-style-tt">0</span>".</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id002866521507427108" id="id00933685783982508" class="input-output-copier">Copy</div></div><pre id="id002866521507427108">1 0 0<br>0 0 0<br>0 0 1<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0012179786718688801" id="id003932975920486158" class="input-output-copier">Copy</div></div><pre id="id0012179786718688801">001<br>010<br>100<br></pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id009594022232682198" id="id008620767811795728" class="input-output-copier">Copy</div></div><pre id="id009594022232682198">1 0 1<br>8 8 8<br>2 0 3<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id002393820978501512" id="id006647935139376241" class="input-output-copier">Copy</div></div><pre id="id002393820978501512">010<br>011<br>100<br></pre></div></div></div>
