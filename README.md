@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 89 | 27 |
+| 90 | 27 |
 
 ---
 
@@ -26,7 +26,7 @@
 - [fft](#fft) (1)
 - [games](#games) (2)
 - [geometry](#geometry) (1)
-- [graphs](#graphs) (8)
+- [graphs](#graphs) (9)
 - [greedy](#greedy) (36)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (22)
@@ -34,7 +34,7 @@
 - [number theory](#number-theory) (9)
 - [probabilities](#probabilities) (1)
 - [schedules](#schedules) (1)
-- [shortest paths](#shortest-paths) (2)
+- [shortest paths](#shortest-paths) (3)
 - [sortings](#sortings) (7)
 - [strings](#strings) (6)
 - [trees](#trees) (7)
@@ -248,6 +248,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1063B | [Labyrinth](https://codeforces.com/contest/1063/problem/B) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1063/B%20-%20Labyrinth/solution.cpp) |
 | 1245D | [Shichikuji and Power Grid](https://codeforces.com/contest/1245/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1245/D%20-%20Shichikuji%20and%20Power%20Grid/solution.cpp) |
 | 1388D | [Captain Flint and Treasure](https://codeforces.com/contest/1388/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1388/D%20-%20Captain%20Flint%20and%20Treasure/solution.cpp) |
 | 2059D | [Graph and Graph](https://codeforces.com/contest/2059/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2059/D%20-%20Graph%20and%20Graph/solution.cpp) |
@@ -394,6 +395,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1063B | [Labyrinth](https://codeforces.com/contest/1063/problem/B) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1063/B%20-%20Labyrinth/solution.cpp) |
 | 1245D | [Shichikuji and Power Grid](https://codeforces.com/contest/1245/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1245/D%20-%20Shichikuji%20and%20Power%20Grid/solution.cpp) |
 | 2059D | [Graph and Graph](https://codeforces.com/contest/2059/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2059/D%20-%20Graph%20and%20Graph/solution.cpp) |
 
