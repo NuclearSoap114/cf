@@ -6,13 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 348 | 31 |
+| 349 | 32 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (1)
+- [2-sat](#2-sat) (1)
 - [Uncategorized](#uncategorized) (21)
 - [binary search](#binary-search) (42)
 - [bitmasks](#bitmasks) (18)
@@ -20,16 +21,16 @@
 - [combinatorics](#combinatorics) (13)
 - [constructive algorithms](#constructive-algorithms) (62)
 - [data structures](#data-structures) (45)
-- [dfs and similar](#dfs-and-similar) (16)
+- [dfs and similar](#dfs-and-similar) (17)
 - [divide and conquer](#divide-and-conquer) (4)
 - [dp](#dp) (53)
-- [dsu](#dsu) (10)
+- [dsu](#dsu) (11)
 - [expression parsing](#expression-parsing) (1)
 - [fft](#fft) (1)
 - [games](#games) (8)
 - [geometry](#geometry) (8)
 - [graph matchings](#graph-matchings) (1)
-- [graphs](#graphs) (16)
+- [graphs](#graphs) (17)
 - [greedy](#greedy) (157)
 - [hashing](#hashing) (3)
 - [implementation](#implementation) (95)
@@ -51,6 +52,12 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1505A | [Is it rated - 2](https://codeforces.com/contest/1505/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/1505/A%20-%20Is%20it%20rated%20-%202/solution.cpp) |
+
+### 2-sat
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 776D | [The Door Problem](https://codeforces.com/contest/776/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/776/D%20-%20The%20Door%20Problem/solution.cpp) |
 
 ### Uncategorized
 
@@ -362,6 +369,7 @@
 | 463D | [Gargari and Permutations](https://codeforces.com/contest/463/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/463/D%20-%20Gargari%20and%20Permutations/solution.cpp) |
 | 505C | [Mr. Kitayuta, the Treasure Hunter](https://codeforces.com/contest/505/problem/C) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/505/C%20-%20Mr.%20Kitayuta%2C%20the%20Treasure%20Hunter/solution.cpp) |
 | 540C | [Ice Cave](https://codeforces.com/contest/540/problem/C) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/540/C%20-%20Ice%20Cave/solution.cpp) |
+| 776D | [The Door Problem](https://codeforces.com/contest/776/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/776/D%20-%20The%20Door%20Problem/solution.cpp) |
 | 1294F | [Three Paths on a Tree](https://codeforces.com/contest/1294/problem/F) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1294/F%20-%20Three%20Paths%20on%20a%20Tree/solution.cpp) |
 | 1388D | [Captain Flint and Treasure](https://codeforces.com/contest/1388/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1388/D%20-%20Captain%20Flint%20and%20Treasure/solution.cpp) |
 | 1950G | [Shuffling Songs](https://codeforces.com/contest/1950/problem/G) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/G%20-%20Shuffling%20Songs/solution.cpp) |
@@ -446,6 +454,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 776D | [The Door Problem](https://codeforces.com/contest/776/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/776/D%20-%20The%20Door%20Problem/solution.cpp) |
 | 817D | [Imbalanced Array](https://codeforces.com/contest/817/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/817/D%20-%20Imbalanced%20Array/solution.cpp) |
 | 1245D | [Shichikuji and Power Grid](https://codeforces.com/contest/1245/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1245/D%20-%20Shichikuji%20and%20Power%20Grid/solution.cpp) |
 | 1620E | [Replace the Numbers](https://codeforces.com/contest/1620/problem/E) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1620/E%20-%20Replace%20the%20Numbers/solution.cpp) |
@@ -506,6 +515,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 463D | [Gargari and Permutations](https://codeforces.com/contest/463/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/463/D%20-%20Gargari%20and%20Permutations/solution.cpp) |
+| 776D | [The Door Problem](https://codeforces.com/contest/776/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/776/D%20-%20The%20Door%20Problem/solution.cpp) |
 | 938D | [Buy a Ticket](https://codeforces.com/contest/938/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/938/D%20-%20Buy%20a%20Ticket/solution.cpp) |
 | 1063B | [Labyrinth](https://codeforces.com/contest/1063/problem/B) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1063/B%20-%20Labyrinth/solution.cpp) |
 | 1245D | [Shichikuji and Power Grid](https://codeforces.com/contest/1245/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1245/D%20-%20Shichikuji%20and%20Power%20Grid/solution.cpp) |
