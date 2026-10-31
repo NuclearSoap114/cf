@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 349 | 32 |
+| 351 | 32 |
 
 ---
 
@@ -19,7 +19,7 @@
 - [bitmasks](#bitmasks) (18)
 - [brute force](#brute-force) (66)
 - [combinatorics](#combinatorics) (13)
-- [constructive algorithms](#constructive-algorithms) (62)
+- [constructive algorithms](#constructive-algorithms) (63)
 - [data structures](#data-structures) (45)
 - [dfs and similar](#dfs-and-similar) (17)
 - [divide and conquer](#divide-and-conquer) (4)
@@ -31,7 +31,7 @@
 - [geometry](#geometry) (8)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (17)
-- [greedy](#greedy) (157)
+- [greedy](#greedy) (159)
 - [hashing](#hashing) (3)
 - [implementation](#implementation) (95)
 - [interactive](#interactive) (1)
@@ -40,7 +40,7 @@
 - [probabilities](#probabilities) (2)
 - [schedules](#schedules) (2)
 - [shortest paths](#shortest-paths) (7)
-- [sortings](#sortings) (45)
+- [sortings](#sortings) (46)
 - [strings](#strings) (33)
 - [trees](#trees) (14)
 - [two pointers](#two-pointers) (25)
@@ -310,6 +310,7 @@
 | 2254D | [Silhouette](https://codeforces.com/contest/2254/problem/D) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2254/D%20-%20Silhouette/solution.cpp) |
 | 2254F | [Whiplash](https://codeforces.com/contest/2254/problem/F) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2254/F%20-%20Whiplash/solution.cpp) |
 | 2267B | [Fashionable Array](https://codeforces.com/contest/2267/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2267/B%20-%20Fashionable%20Array/solution.cpp) |
+| 2272B | [Frogs Jump](https://codeforces.com/contest/2272/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2272/B%20-%20Frogs%20Jump/solution.cpp) |
 
 ### data structures
 
@@ -539,6 +540,7 @@
 | 58A | [Chat room](https://codeforces.com/contest/58/problem/A) | 1000 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/58/A%20-%20Chat%20room/solution.cpp) |
 | 294B | [Shaass and Bookshelf](https://codeforces.com/contest/294/problem/B) | 1700 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/294/B%20-%20Shaass%20and%20Bookshelf/solution.cpp) |
 | 448C | [Painting Fence](https://codeforces.com/contest/448/problem/C) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/448/C%20-%20Painting%20Fence/solution.cpp) |
+| 1175D | [Array Splitting](https://codeforces.com/contest/1175/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1175/D%20-%20Array%20Splitting/solution.cpp) |
 | 1245D | [Shichikuji and Power Grid](https://codeforces.com/contest/1245/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1245/D%20-%20Shichikuji%20and%20Power%20Grid/solution.cpp) |
 | 1251D | [Salary Changing](https://codeforces.com/contest/1251/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1251/D%20-%20Salary%20Changing/solution.cpp) |
 | 1294F | [Three Paths on a Tree](https://codeforces.com/contest/1294/problem/F) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1294/F%20-%20Three%20Paths%20on%20a%20Tree/solution.cpp) |
@@ -692,6 +694,7 @@
 | 2254C1 | [Marenol (easy version)](https://codeforces.com/contest/2254/problem/C1) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2254/C1%20-%20Marenol%20(easy%20version)/solution.cpp) |
 | 2254C2 | [Marenol (hard version)](https://codeforces.com/contest/2254/problem/C2) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2254/C2%20-%20Marenol%20(hard%20version)/solution.cpp) |
 | 2254E | [Chronostasis](https://codeforces.com/contest/2254/problem/E) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2254/E%20-%20Chronostasis/solution.cpp) |
+| 2272B | [Frogs Jump](https://codeforces.com/contest/2272/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2272/B%20-%20Frogs%20Jump/solution.cpp) |
 | 2276A | [Perfect Sandwiches](https://codeforces.com/contest/2276/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/2276/A%20-%20Perfect%20Sandwiches/solution.cpp) |
 
 ### hashing
@@ -1000,6 +1003,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 817D | [Imbalanced Array](https://codeforces.com/contest/817/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/817/D%20-%20Imbalanced%20Array/solution.cpp) |
+| 1175D | [Array Splitting](https://codeforces.com/contest/1175/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1175/D%20-%20Array%20Splitting/solution.cpp) |
 | 1251D | [Salary Changing](https://codeforces.com/contest/1251/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1251/D%20-%20Salary%20Changing/solution.cpp) |
 | 1929A | [Sasha and the Beautiful Array](https://codeforces.com/contest/1929/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1929/A%20-%20Sasha%20and%20the%20Beautiful%20Array/solution.cpp) |
 | 1935C | [Messenger in MAC](https://codeforces.com/contest/1935/problem/C) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1935/C%20-%20Messenger%20in%20MAC/solution.cpp) |
