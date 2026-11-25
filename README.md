@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 355 | 32 |
+| 357 | 32 |
 
 ---
 
@@ -15,12 +15,12 @@
 - [*special](#special) (1)
 - [2-sat](#2-sat) (1)
 - [Uncategorized](#uncategorized) (21)
-- [binary search](#binary-search) (42)
+- [binary search](#binary-search) (43)
 - [bitmasks](#bitmasks) (18)
 - [brute force](#brute-force) (66)
 - [combinatorics](#combinatorics) (15)
-- [constructive algorithms](#constructive-algorithms) (64)
-- [data structures](#data-structures) (47)
+- [constructive algorithms](#constructive-algorithms) (65)
+- [data structures](#data-structures) (48)
 - [dfs and similar](#dfs-and-similar) (17)
 - [divide and conquer](#divide-and-conquer) (4)
 - [dp](#dp) (55)
@@ -31,11 +31,11 @@
 - [geometry](#geometry) (8)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (18)
-- [greedy](#greedy) (161)
+- [greedy](#greedy) (163)
 - [hashing](#hashing) (3)
 - [implementation](#implementation) (96)
 - [interactive](#interactive) (1)
-- [math](#math) (126)
+- [math](#math) (127)
 - [number theory](#number-theory) (27)
 - [probabilities](#probabilities) (2)
 - [schedules](#schedules) (2)
@@ -43,7 +43,7 @@
 - [sortings](#sortings) (47)
 - [strings](#strings) (35)
 - [trees](#trees) (15)
-- [two pointers](#two-pointers) (25)
+- [two pointers](#two-pointers) (26)
 
 ---
 
@@ -92,6 +92,7 @@
 | 448D | [Multiplication Table](https://codeforces.com/contest/448/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/448/D%20-%20Multiplication%20Table/solution.cpp) |
 | 466C | [Number of Ways](https://codeforces.com/contest/466/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/466/C%20-%20Number%20of%20Ways/solution.cpp) |
 | 1251D | [Salary Changing](https://codeforces.com/contest/1251/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1251/D%20-%20Salary%20Changing/solution.cpp) |
+| 1923D | [Slimes](https://codeforces.com/contest/1923/problem/D) | 1800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1923/D%20-%20Slimes/solution.cpp) |
 | 1935C | [Messenger in MAC](https://codeforces.com/contest/1935/problem/C) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1935/C%20-%20Messenger%20in%20MAC/solution.cpp) |
 | 1954E | [Chain Reaction](https://codeforces.com/contest/1954/problem/E) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1954/E%20-%20Chain%20Reaction/solution.cpp) |
 | 1971E | [Find the Car](https://codeforces.com/contest/1971/problem/E) | 1500 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1971/E%20-%20Find%20the%20Car/solution.cpp) |
@@ -254,6 +255,7 @@
 | 1353A | [Most Unstable Array](https://codeforces.com/contest/1353/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1353/A%20-%20Most%20Unstable%20Array/solution.cpp) |
 | 1508A | [Binary Literature](https://codeforces.com/contest/1508/problem/A) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1508/A%20-%20Binary%20Literature/solution.cpp) |
 | 1620E | [Replace the Numbers](https://codeforces.com/contest/1620/problem/E) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1620/E%20-%20Replace%20the%20Numbers/solution.cpp) |
+| 1923D | [Slimes](https://codeforces.com/contest/1923/problem/D) | 1800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1923/D%20-%20Slimes/solution.cpp) |
 | 1929A | [Sasha and the Beautiful Array](https://codeforces.com/contest/1929/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1929/A%20-%20Sasha%20and%20the%20Beautiful%20Array/solution.cpp) |
 | 1935C | [Messenger in MAC](https://codeforces.com/contest/1935/problem/C) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1935/C%20-%20Messenger%20in%20MAC/solution.cpp) |
 | 1994D | [Funny Game](https://codeforces.com/contest/1994/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1994/D%20-%20Funny%20Game/solution.cpp) |
@@ -333,6 +335,7 @@
 | 1620E | [Replace the Numbers](https://codeforces.com/contest/1620/problem/E) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1620/E%20-%20Replace%20the%20Numbers/solution.cpp) |
 | 1847D | [Professor Higashikata](https://codeforces.com/contest/1847/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1847/D%20-%20Professor%20Higashikata/solution.cpp) |
 | 1922D | [Berserk Monsters](https://codeforces.com/contest/1922/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1922/D%20-%20Berserk%20Monsters/solution.cpp) |
+| 1923D | [Slimes](https://codeforces.com/contest/1923/problem/D) | 1800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1923/D%20-%20Slimes/solution.cpp) |
 | 1935C | [Messenger in MAC](https://codeforces.com/contest/1935/problem/C) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1935/C%20-%20Messenger%20in%20MAC/solution.cpp) |
 | 1954E | [Chain Reaction](https://codeforces.com/contest/1954/problem/E) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1954/E%20-%20Chain%20Reaction/solution.cpp) |
 | 1971G | [XOUR](https://codeforces.com/contest/1971/problem/G) | 1700 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1971/G%20-%20XOUR/solution.cpp) |
@@ -556,10 +559,12 @@
 | 1294F | [Three Paths on a Tree](https://codeforces.com/contest/1294/problem/F) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1294/F%20-%20Three%20Paths%20on%20a%20Tree/solution.cpp) |
 | 1353A | [Most Unstable Array](https://codeforces.com/contest/1353/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1353/A%20-%20Most%20Unstable%20Array/solution.cpp) |
 | 1388D | [Captain Flint and Treasure](https://codeforces.com/contest/1388/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1388/D%20-%20Captain%20Flint%20and%20Treasure/solution.cpp) |
+| 1490A | [Dense Array](https://codeforces.com/contest/1490/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1490/A%20-%20Dense%20Array/solution.cpp) |
 | 1508A | [Binary Literature](https://codeforces.com/contest/1508/problem/A) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1508/A%20-%20Binary%20Literature/solution.cpp) |
 | 1526C1 | [Potions (Easy Version)](https://codeforces.com/contest/1526/problem/C1) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1526/C1%20-%20Potions%20(Easy%20Version)/solution.cpp) |
 | 1526C2 | [Potions (Hard Version)](https://codeforces.com/contest/1526/problem/C2) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1526/C2%20-%20Potions%20(Hard%20Version)/solution.cpp) |
 | 1847D | [Professor Higashikata](https://codeforces.com/contest/1847/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1847/D%20-%20Professor%20Higashikata/solution.cpp) |
+| 1923D | [Slimes](https://codeforces.com/contest/1923/problem/D) | 1800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1923/D%20-%20Slimes/solution.cpp) |
 | 1929A | [Sasha and the Beautiful Array](https://codeforces.com/contest/1929/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1929/A%20-%20Sasha%20and%20the%20Beautiful%20Array/solution.cpp) |
 | 1935C | [Messenger in MAC](https://codeforces.com/contest/1935/problem/C) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1935/C%20-%20Messenger%20in%20MAC/solution.cpp) |
 | 1950F | [0, 1, 2, Tree!](https://codeforces.com/contest/1950/problem/F) | 1700 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/F%20-%200%2C%201%2C%202%2C%20Tree!/solution.cpp) |
@@ -834,6 +839,7 @@
 | 1353A | [Most Unstable Array](https://codeforces.com/contest/1353/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1353/A%20-%20Most%20Unstable%20Array/solution.cpp) |
 | 1398C | [Good Subarrays](https://codeforces.com/contest/1398/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1398/C%20-%20Good%20Subarrays/solution.cpp) |
 | 1400D | [Zigzags](https://codeforces.com/contest/1400/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1400/D%20-%20Zigzags/solution.cpp) |
+| 1490A | [Dense Array](https://codeforces.com/contest/1490/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1490/A%20-%20Dense%20Array/solution.cpp) |
 | 1922D | [Berserk Monsters](https://codeforces.com/contest/1922/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1922/D%20-%20Berserk%20Monsters/solution.cpp) |
 | 1929A | [Sasha and the Beautiful Array](https://codeforces.com/contest/1929/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1929/A%20-%20Sasha%20and%20the%20Beautiful%20Array/solution.cpp) |
 | 1950C | [Clock Conversion](https://codeforces.com/contest/1950/problem/C) | 800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1950/C%20-%20Clock%20Conversion/solution.cpp) |
@@ -1133,6 +1139,7 @@
 | 505C | [Mr. Kitayuta, the Treasure Hunter](https://codeforces.com/contest/505/problem/C) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/505/C%20-%20Mr.%20Kitayuta%2C%20the%20Treasure%20Hunter/solution.cpp) |
 | 1400D | [Zigzags](https://codeforces.com/contest/1400/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1400/D%20-%20Zigzags/solution.cpp) |
 | 1508A | [Binary Literature](https://codeforces.com/contest/1508/problem/A) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1508/A%20-%20Binary%20Literature/solution.cpp) |
+| 1923D | [Slimes](https://codeforces.com/contest/1923/problem/D) | 1800 | [C++20 (GCC 13-64)](https://github.com/NuclearSoap114/cf/blob/HEAD/1923/D%20-%20Slimes/solution.cpp) |
 | 1974F | [Cutting Game](https://codeforces.com/contest/1974/problem/F) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/NuclearSoap114/cf/blob/HEAD/1974/F%20-%20Cutting%20Game/solution.cpp) |
 | 2037D | [Sharky Surfing](https://codeforces.com/contest/2037/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2037/D%20-%20Sharky%20Surfing/solution.cpp) |
 | 2051D | [Counting Pairs](https://codeforces.com/contest/2051/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/NuclearSoap114/cf/blob/HEAD/2051/D%20-%20Counting%20Pairs/solution.cpp) |
